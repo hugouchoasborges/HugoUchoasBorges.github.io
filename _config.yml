@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Hugo Uchôas Borges"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Game Programmer."
   location         : "Itajubá, MG"
   email            : "hugouchoas@outlook.com"
