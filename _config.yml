@@ -227,6 +227,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -263,8 +264,8 @@ jekyll-archives:
     category: archive-taxonomy
     tag: archive-taxonomy
   permalinks:
-    category: /categories/#name/
-    tag: /tags/#name/
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
