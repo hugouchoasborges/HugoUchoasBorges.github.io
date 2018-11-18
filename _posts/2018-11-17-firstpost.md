@@ -1,7 +1,7 @@
 ---
 title: "Game Programming Project: First Post"
 date: 2018-11-17
-tags: [unity, prototype, game feel]
+# tags: [unity, prototype, game feel]
 header:
     image: "/images/firstpost/gamefeel.jpg"
 excerpt: "Unity, Prototype, Game Feel" 
