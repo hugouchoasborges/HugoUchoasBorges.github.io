@@ -118,13 +118,16 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/hugo.uchoas.borges"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HugoUchoasBorges"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hugo-uchoas-borges"
 
 # Site Footer
 footer:
@@ -134,10 +137,10 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://facebook.com/hugo.uchoas.borges"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "HugoUchoasBorges"
+      url: "https://github.com/HugoUchoasBorges"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -147,6 +150,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hugo-uchoas-borges"
 
 
 # Reading Files
