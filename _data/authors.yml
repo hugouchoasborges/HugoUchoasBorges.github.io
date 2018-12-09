@@ -1,0 +1,25 @@
+# /_data/authors.yml
+
+Hugo Borges:
+  name             : "Hugo Uchôas Borges"
+  avatar           : "/images/authors/hugo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Desenvolvedor de Jogos"
+  location         : "Itajubá, MG"
+  email            : "hugouchoas@outlook.com"
+  links:
+    - label: "Sobre"
+      url: "https://hugouchoasborges.github.io/about/"
+    - label: "Postagens"
+      url: "https://hugouchoasborges.github.io/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://hugouchoasborges.github.io"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/hugo.uchoas.borges"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/HugoUchoasBorges"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hugo-uchoas-borges"
