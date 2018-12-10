@@ -110,7 +110,7 @@ author:
     - label: "Sobre"
       url: /about/
     - label: "Postagens"
-      url: "//"
+      url: "/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:hugouchoas@outlook.com
