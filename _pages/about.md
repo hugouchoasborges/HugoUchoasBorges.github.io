@@ -13,7 +13,7 @@ Gosto de estar sempre aprendendo. Dedico todo meu tempo livre ao estudo e práti
 {: .text-justify}
 
 ## Links de Acesso:
-* Currículo: [Link](/assets/files/resume.pdf)
+* Currículo: [Link](/overleaf/curriculo/Curriculo.pdf)
 * Minha carreira como Desenvolvedor de Jogos: [Link](/career/)
 
 <object data="{{ post.file_document_path }}" width="1000" height="1000" type='application/pdf'/>
