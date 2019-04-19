@@ -1,4 +1,0 @@
-[submodule "overleaf/curriculo"]
-	path = overleaf/curriculo
-	url = https://github.com/HugoUchoasBorges/Curriculo.git
-        branch = master

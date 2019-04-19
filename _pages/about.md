@@ -16,7 +16,7 @@ Gosto de estar sempre aprendendo. Dedico todo meu tempo livre ao estudo e práti
 {: .text-justify}
 
 ## Links de Acesso:
-* Currículo: [Link](/overleaf/curriculo/Curriculo.pdf)
+* Currículo: [Link](/assets/files/Curriculo.pdf)
 * Minha carreira como Desenvolvedor de Jogos: [Link](/career/)
 
 * Linkedin: https://www.linkedin.com/in/hugo-uchoas-borges/
