@@ -8,3 +8,25 @@ header:
 excerpt: "Unity, GameJam, Dev-U, Death-Corp, IDLE, CLICK" 
 ---
 
+
+# Death-Corp
+
+## O jogo
+
+### Links
+
+Alguns links de acesso ao jogo:
+
+- itch.io: [**https://hugouchoasborges.itch.io/death-corp**](http://https://hugouchoasborges.itch.io/death-corp)
+
+## Principais Desafios
+
+### Desafio 1
+
+### Solução 1
+
+## Princ
+No jogo, podemos coletar almas da terra, onde ganhamos *Blessing Points*, usados para upgrades divinos, ou *Curse Points*, utilizados para upgrades demoníacos. Basicamente, upgrades divinos 
+
+DeathCorp
+
