@@ -3,7 +3,7 @@ title: "Sobre"
 permalink: /about/
 layout: single
 header:
-    image: "/images/devu_banner.jpg"
+    overlay_image: "/images/devu_banner.jpg"
 ---
 
 Desenvolvedor de Jogos na [**Dev-U**](https://www.facebook.com/DevUnifei/), onde fui Diretor de Programação no período de Março/2018 à Março/2019.
