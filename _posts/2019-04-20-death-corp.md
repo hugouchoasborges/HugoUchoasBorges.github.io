@@ -92,7 +92,7 @@ Dentre os 5 *upgrades*, 4 deles incrementam o ganho **idle** de almas e 1 deles 
 
 ## Links
 
-- Itch.io: [**Link**](http://https://hugouchoasborges.itch.io/death-corp)
+- Itch.io: [**Link**](https://hugouchoasborges.itch.io/death-corp)
 - Github: [**Link**](https://github.com/HugoUchoasBorges/death_corp)
 
 * <A href="#links-rápidos">Voltar ao Início</A>
