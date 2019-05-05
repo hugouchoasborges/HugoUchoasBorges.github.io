@@ -8,16 +8,16 @@ header:
 
 Desenvolvedor de Jogos na [**Dev-U**](https://www.facebook.com/DevUnifei/), onde fui Diretor de Programação no período de Março/2018 à Março/2019.
 {: .text-justify}
-**Formação:** Engenheiro de Computação pela Universidade Federal de Itajubá.
+**Formação:** Engenheiro de Computação pela Universidade Federal de Itajubá - Turma 2013.
 {: .text-justify}
 
 
-Gosto de estar sempre aprendendo. Dedico todo meu tempo livre ao estudo e prática no desenvolvimento de jogos, gerência de atividades e, de vez em quando, jogar no meu computador.
+Gosto de estar sempre aprendendo. Dedico meu tempo livre ao estudo e prática no desenvolvimento de jogos, gerência de atividades e, de vez em quando, jogar no meu computador.
 {: .text-justify}
 
 ## Links de Acesso:
 * Currículo: [Link](/assets/files/Curriculo.pdf)
-* Minha carreira como Desenvolvedor de Jogos: [Link](/career/)
+* Posts: [Link]()
 
 * Linkedin: [Link](https://www.linkedin.com/in/hugo-uchoas-borges/)
 * Facebook: [Link](http://facebook.com/hugouchoasborges)
