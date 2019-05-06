@@ -18,11 +18,10 @@ Gosto de estar sempre aprendendo. Dedico meu tempo livre ao estudo e prática no
 {: .text-justify}
 
 ## Links de Acesso:
-* Currículo: [Link](/assets/files/Curriculo.pdf)
-* Posts: [Link]()
-
-* Linkedin: [Link](https://www.linkedin.com/in/hugo-uchoas-borges/)
-* Facebook: [Link](http://facebook.com/hugouchoasborges)
+* Currículo: [**Link**](/assets/files/Curriculo.pdf)
+* Github: [**Link**](https://www.github.com/HugoUchoasBorges)
+* Linkedin: [**Link**](https://www.linkedin.com/in/hugo-uchoas-borges/)
+* Facebook: [**Link**](http://facebook.com/hugouchoasborges)
 
 ## Meu Trabalho Hoje
 
