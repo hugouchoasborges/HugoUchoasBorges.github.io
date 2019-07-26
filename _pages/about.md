@@ -52,7 +52,10 @@ Por estarmos sempre lidando com diversos projetos para muitos clientes, a especi
 Desde cedo, assim como muitos desenvolvedores, tive interesse não apenas em ser um jogador, mas em saber como os jogos que eu gostava eram feitos. 
 {: .text-justify}
 
-Tudo começou no ensino técnico, com a apresentação da modelagem de minha escola da época e integração do modelo na *Unreal Engine*. Após, no início da faculdade, tive meu primeiro contato com a programação de jogos de fato e, no final da faculdade até o presente momento, estou atuando como desenvolvedor pela [**Dev-U**](https://www.facebook.com/DevUnifei/).
+Tudo começou no ensino técnico, com a apresentação da modelagem de minha escola da época e integração do modelo na *Unreal Engine*. Após, no início da faculdade, tive meu primeiro contato com a programação de jogos de fato e, no final da faculdade até o Maio de 2019, atuei como desenvolvedor pela [**Dev-U**](https://www.facebook.com/DevUnifei/).
+{: .text-justify}
+
+Durante meu último ano como desenvolvedor na **Dev-U**, fiquei no cargo de diretor de programação. Encarregado pelo treinamento do pessoal, além de questões administrativas e gerenciamento de equipes.
 {: .text-justify}
 
 * <A href="#resumo">Voltar ao Início</A>
