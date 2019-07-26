@@ -109,6 +109,10 @@ author:
   links:
     - label: "Sobre"
       url: /about/
+      icon: "far fa-address-card"
+    - label: "Jogos"
+      url: "/games/"
+      icon: "fas fa-gamepad"
     - label: "Postagens"
       url: "/"
     - label: "Email"

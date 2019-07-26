@@ -11,6 +11,8 @@ Hugo Borges:
       url: "https://hugouchoasborges.github.io/about/"
     - label: "Postagens"
       url: "https://hugouchoasborges.github.io/"
+    - label: "Jogos"
+      url: "https://hugouchoasborges.github.io/games"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://hugouchoasborges.github.io"

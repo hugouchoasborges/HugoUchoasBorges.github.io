@@ -8,8 +8,20 @@ header:
 excerpt: "Unity, GameJam, Dev-U, Death-Corp, IDLE, CLICK" 
 ---
 
+# Death-Corp
+
+<html>
+<iframe frameborder="0" src="https://itch.io/embed/399043" width="552" height="167"> 
+</iframe>
+</html>
+
+Durante o período do dia 26/03 à 31/03 foi realizada a **DevuJam #1**. A primeira GameJam interna da *Dev-U* de 2019, com o tema: **Aprendendo com a Morte**.
+{: .text-justify}
+
+Nossa ideia de jogo foi um *Idle Game Clicker* com o nome **Death-Corp**.
+{: .text-justify}
+
 ### **Links Rápidos**
-* <A href="#gamejam---death-corp">GameJam - Death-Corp</A>
 * <A href="#o-jogo">O Jogo</A>
     * <A href="#faith---bp-e-cp">Faith - BP e CP</A>
     * <A href="#heaven">Heaven</A>
@@ -18,15 +30,6 @@ excerpt: "Unity, GameJam, Dev-U, Death-Corp, IDLE, CLICK"
 * <A href="#links">Links</A>
 * <A href="#imagens">Imagens</A>
 
-# GameJam - Death-Corp
-
-Durante o período do dia 26/03 à 31/03 foi realizada a **DevuJam #1**. A primeira GameJam interna da *Dev-U* de 2019, com o tema: **Aprendendo com a Morte**.
-{: .text-justify}
-
-Nossa ideia de jogo foi um *Idle Game Clicker* com o nome **Death-Corp**.
-{: .text-justify}
-
-* <A href="#links-rápidos">Voltar ao Início</A>
 
 ## O Jogo
 
