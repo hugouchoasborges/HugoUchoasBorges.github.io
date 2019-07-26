@@ -11,9 +11,12 @@ excerpt: "Unity, GameJam, Dev-U, Death-Corp, IDLE, CLICK"
 # Death-Corp
 
 <html>
-<iframe frameborder="0" src="https://itch.io/embed/399043" width="552" height="167"> 
-</iframe>
+    <div class="resp-container">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/399043?border_width=5" width="560" height="175">
+        </iframe>
+    </div>
 </html>
+
 
 Durante o período do dia 26/03 à 31/03 foi realizada a **DevuJam #1**. A primeira GameJam interna da *Dev-U* de 2019, com o tema: **Aprendendo com a Morte**.
 {: .text-justify}

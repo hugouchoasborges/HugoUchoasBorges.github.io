@@ -16,8 +16,10 @@ Tema: **Aprendendo com a Morte**.
 
 
 <html>
-    <iframe frameborder="0" src="https://itch.io/embed/399043?border_width=5" width="560" height="175">
-    </iframe>
+    <div class="resp-container">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/399043?border_width=5" width="560" height="175">
+        </iframe>
+    </div>
 </html>
 
 - Post Dedicado: [**Death-Corp**](/death-corp/)
@@ -33,9 +35,12 @@ Com **The Chosen Two**, conquistamos a premiação de melhor arte no evento.
 
 
 <html>
-    <iframe frameborder="0" src="https://itch.io/embed/425358?border_width=5" width="560" height="175">
-    </iframe>
+    <div class="resp-container">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/425358?border_width=5" width="560" height="175">
+        </iframe>
+    </div>
 </html>
+
 
 - Post Dedicado: [**The-Chosen-Two**](/the-chosen-two/)
 - Github: [**Link**](https://github.com/HugoUchoasBorges/the-chosen-two)

@@ -10,8 +10,10 @@ excerpt: "Unity, GameJam, CPG, The Chosen Two, Action, Fighting"
 # The Chosen Two
 
 <html>
-    <iframe frameborder="0" src="https://itch.io/embed/425358?border_width=5" width="560" height="175">
-    </iframe>
+    <div class="resp-container">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/425358?border_width=5" width="560" height="175">
+        </iframe>
+    </div>
 </html>
 
 
