@@ -8,22 +8,28 @@ header:
 
 # Jogos
 
-## [Death-Corp](/death-corp/)
-
-Jogo feito para a primeira *GameJam* de 2019 interna da [**Dev-U**](https://www.facebook.com/DevUnifei/)
-Tema: **Aprendendo com a Morte**.
-{: .text-justify}
-
+## [Emburradinho](/emburradinho/) (Em Desenvolvimento)
 
 <html>
     <div class="resp-container">
-        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/399043?border_width=5" width="560" height="175">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/438116?border_width=5" width="560" height="175">
         </iframe>
     </div>
 </html>
 
-- Post Dedicado: [**Death-Corp**](/death-corp/)
-- Github: [**Link**](https://github.com/HugoUchoasBorges/death_corp)
+- Post Dedicado: [**Emburradinho**](/emburradinho/)
+
+## [SSShooter](/ssshooter/) (Em Desenvolvimento)
+
+<html>
+    <div class="resp-container">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/432147?border_width=5" width="560" height="175">
+        </iframe>
+    </div>
+</html>
+
+- Post Dedicado: [**SSShooter**](/ssshooter/)
+- Github: [**Link**](https://github.com/HugoUchoasBorges/space-spelling-shooter)
 
 ## [The Chosen Two](/the-chosen-two/)
 
@@ -45,6 +51,22 @@ Com **The Chosen Two**, conquistamos a premiação de melhor arte no evento.
 - Post Dedicado: [**The-Chosen-Two**](/the-chosen-two/)
 - Github: [**Link**](https://github.com/HugoUchoasBorges/the-chosen-two)
 
+## [Death-Corp](/death-corp/)
+
+Jogo feito para a primeira *GameJam* de 2019 interna da [**Dev-U**](https://www.facebook.com/DevUnifei/)
+Tema: **Aprendendo com a Morte**.
+{: .text-justify}
+
+
+<html>
+    <div class="resp-container">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/399043?border_width=5" width="560" height="175">
+        </iframe>
+    </div>
+</html>
+
+- Post Dedicado: [**Death-Corp**](/death-corp/)
+- Github: [**Link**](https://github.com/HugoUchoasBorges/death_corp)
 
 * <A href="#jogos">Voltar ao Início</A>
 
