@@ -17,7 +17,8 @@ header:
     </div>
 </html>
 
-- Post Dedicado: [**Emburradinho**](/emburradinho/)
+# - Post Dedicado: [**Emburradinho**](/emburradinho/)
+- Github: [**Link**](https://github.com/HugoUchoasBorges/emburradinho)
 
 ## **SSShooter** (Em Desenvolvimento)
 
@@ -28,7 +29,7 @@ header:
     </div>
 </html>
 
-- Post Dedicado: [**SSShooter**](/ssshooter/)
+# - Post Dedicado: [**SSShooter**](/ssshooter/)
 - Github: [**Link**](https://github.com/HugoUchoasBorges/space-spelling-shooter)
 
 ## [The Chosen Two](/the-chosen-two/)
