@@ -8,7 +8,7 @@ header:
 
 # Jogos
 
-## [Emburradinho](/emburradinho/) (Em Desenvolvimento)
+## **Emburradinho** (Em Desenvolvimento)
 
 <html>
     <div class="resp-container">
@@ -19,7 +19,7 @@ header:
 
 - Post Dedicado: [**Emburradinho**](/emburradinho/)
 
-## [SSShooter](/ssshooter/) (Em Desenvolvimento)
+## **SSShooter** (Em Desenvolvimento)
 
 <html>
     <div class="resp-container">
@@ -51,7 +51,7 @@ Com **The Chosen Two**, conquistamos a premiação de melhor arte no evento.
 - Post Dedicado: [**The-Chosen-Two**](/the-chosen-two/)
 - Github: [**Link**](https://github.com/HugoUchoasBorges/the-chosen-two)
 
-## [Death-Corp](/death-corp/)
+## **Death-Corp**
 
 Jogo feito para a primeira *GameJam* de 2019 interna da [**Dev-U**](https://www.facebook.com/DevUnifei/)
 Tema: **Aprendendo com a Morte**.
@@ -67,6 +67,20 @@ Tema: **Aprendendo com a Morte**.
 
 - Post Dedicado: [**Death-Corp**](/death-corp/)
 - Github: [**Link**](https://github.com/HugoUchoasBorges/death_corp)
+
+## **Resta Um**
+
+Meu primeiro jogo feito no primeiro ano de faculdade, em linguagem C, para a matéria "Técnicas de Programação".
+{: .text-justify}
+
+O jogo possui:
+* Modo Singleplayer com 5 níveis;
+* Modo Singleplayer com criação de mapa;
+* Sons criados atrás da definição das escalas de frequências dos Bipes.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/about/restaum.jpg" alt="Resta Um">
+
+* Link para baixar o jogo: [**Resta-Um**](/assets/files/Trabalho - 12-06-13.zip)
 
 * <A href="#jogos">Voltar ao Início</A>
 

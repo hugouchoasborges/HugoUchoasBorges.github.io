@@ -113,8 +113,8 @@ author:
     - label: "Jogos"
       url: "/games/"
       icon: "fas fa-gamepad"
-    - label: "Publicações"
-      url: "/"
+    # - label: "Publicações"
+    #  url: "/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:hugouchoas@outlook.com

@@ -8,7 +8,7 @@ header:
 
 ## Resumo
 
-Desenvolvedor de Jogos na [**Dev-U**](https://www.facebook.com/DevUnifei/), onde fui Diretor de Programação no período de Março/2018 à Março/2019.
+Desenvolvedor independente de jogos e Analista desenvolvedor de sistemas python na empresa [KMEE Informática LTDA](https://www.kmee.com.br/).
 {: .text-justify}
 **Formação:** Engenheiro de Computação pela Universidade Federal de Itajubá - Turma 2013.
 {: .text-justify}
@@ -20,11 +20,24 @@ Gosto de estar sempre aprendendo. Dedico meu tempo livre ao estudo e prática no
 ## Links de Acesso:
 * Currículo: [**Link**](/assets/files/Curriculo.pdf)
 * Jogos: [**Link**](/games/)
-* Publicações: [**Link**](/)
 * Github: [**Link**](https://www.github.com/HugoUchoasBorges)
+* Github Gists: [**Link**](https://gist.github.com/hugouchoasborges)
 * itch.io: [**Link**](https://hugouchoasborges.itch.io/)
 * Linkedin: [**Link**](https://www.linkedin.com/in/hugo-uchoas-borges/)
 * Facebook: [**Link**](http://facebook.com/hugouchoasborges)
+* Instagram: [**Link**](https://www.instagram.com/hugo.uchoas.borges/)
+
+### **Links Rápidos**
+* <A href="#meu-trabalho-hoje">Meu Trabalho Hoje</A>
+* <A href="#desenvolvimento-de-jogos">Desenvolvimento de Jogos</A>
+    * <A href="#primeiro-projeto">Primeiro Projeto</A>
+    * <A href="#primeira-gamejam">Primeira GameJam</A>
+* <A href="#dev-u">Dev-U</A>
+    * <A href="#quizena">QuizENA</A>
+    * <A href="#diretor-de-programação">Diretor de Programação</A>
+    * <A href="#emburradinho">Emburradinho</A>
+    * <A href="#gamejam---death-corp">GameJam - Death-Corp</A>
+* <A href="#gamejam---cpg-2019">GameJam - CPG 2019</A>
 
 ## Meu Trabalho Hoje
 
@@ -46,6 +59,9 @@ Como nossa empresa trabalha com código aberto, estamos sempre em contato com a 
 Por estarmos sempre lidando com diversos projetos para muitos clientes, a especificação e organização de tarefas deve estar presente e devemos estar sempre prontos para lidar com grandes estruturas de código e muitas camadas de hierarquias de classes.
 {: .text-justify}
 
+* <A href="#resumo">Voltar ao Início</A>
+
+
 {% comment %}
  # ---------------------------------------------------------------------------------------------------------------------------------------- #
 {% endcomment %}
@@ -58,8 +74,344 @@ Desde cedo, assim como muitos desenvolvedores, tive interesse não apenas em ser
 Tudo começou no ensino técnico, com a apresentação da modelagem de minha escola da época e integração do modelo na *Unreal Engine*. Após, no início da faculdade, tive meu primeiro contato com a programação de jogos de fato e, no final da faculdade até o Maio de 2019, atuei como desenvolvedor pela [**Dev-U**](https://www.facebook.com/DevUnifei/).
 {: .text-justify}
 
-Durante meu último ano como desenvolvedor na **Dev-U**, fiquei no cargo de diretor de programação. Encarregado pelo treinamento do pessoal, além de questões administrativas e gerenciamento de equipes.
+### Primeiro Projeto
+
+Ao entrar na faculdade, logo no primeiro semestre, tive contato com professores que compartilhavam desse interesse por jogos e incentivavam um pensamento voltado a esta área.
+O trabalho final na minha máteria de *Introdução à Programação* foi o desenvolvimento de um jogo simples em *linguagem C*.
 {: .text-justify}
+
+Como estava no início do curso, com pouco conhecimento sobre programação de jogos e orientação a objetos, optei por fazer algo simples, escolhendo o jogo **Resta Um**.
+{: .text-justify}
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/about/restaum.jpg" alt="Resta Um">
+
+O jogo ficou bem simples, mas admito ter me dado muito trabalho na época, por ter todo o sistema de atualização de tela pela linha de comando, além do sistema de sons e um editor de fases simples.
+ {: .text-justify}
+
+Link para download do projeto: [**Resta-Um**](/assets/files/Trabalho - 12-06-13.zip)
+
+* <A href="#resumo">Voltar ao Início</A>
+
+
+### Primeira GameJam
+
+
+<html>
+    <div class="resp-container">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/432147?border_width=5" width="560" height="175">
+        </iframe>
+    </div>
+</html>
+
+
+Em Outubro de 2017 foi organizada uma GameJam de 2 dias de duração na minha faculdade, chamada [*Code 'N Play*](https://www.facebook.com/events/510541149338454/).
+{: .text-justify}
+
+Por não ter uma rede de contatos ampla, acabei formando uma equipe eu mesmo, contendo 4 integrantes. 
+Nossa equipe era formada por 3 programadores e 1 responsável pelo nosso Marketing, pois precisaríamos apresentar nossa ideia tanto para os jurados quanto para os outros participantes votarem.
+{: .text-justify}
+
+Dos programadores, nenhum de nós nunca teve contato de fato com alguma *Game Engine*, o que tornou essencial uma preparação para o evento.
+{: .text-justify}
+
+Acabei por comprar alguns cursos online sobre **Unity**, onde aprendi o básico da interface do programa e um pouco de C#.
+Além disso, algumas reuniões foram feitas onde passei conceitos de *Git* aprendidos no meu estágio para e equipe, pois o utilizaríamos no evento.  
+{: .text-justify}
+
+Durante o evento, tivemos 48 horas para desenvolver um jogo do zero com o tema *'Não é o que parece'*.
+As ferramentas que usamos foram:
+{: .text-justify}
+* Git;
+* Unity;
+* Photoshop;
+* Audacity.
+{: .text-justify}
+
+Como era nossa primeira GameJam e éramos inexperientes, me preparei para a Gamejam fazendo diversas anotações durante as semanas anteriores de possíveis ideias, mesmo sem saber o tema. Com isso em mente, não perdemos muito tempo com o *Brain Storming* e partimos para o desenvolvimento. 
+{: .text-justify}
+
+
+O jogo escolhido foi uma ideia antiga minha misturando diversos jogos de meu interesse.
+* Um jogo de nave *borderless* com movimentação dos inimigos ao estilo **Asteroids**;
+* Efeitos visuais simples de se fazer, pois só tínhamos programadores, e coloridos ao estilo **Geometry Wars**;
+* Um sistema de digitação ao estilo do jogo [**Ztype**](https://zty.pe/);
+* Um sistema de hordas.
+{: .text-justify}
+
+
+O jogo ao final do evento foi algo simples, mas atingindo nosso objetivo definido. Demos o nome temporário ao jogo de **Space-Spelling-Shooter**
+{: .text-justify}
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/about/space-spelling-shooter_2.JPG" alt="Space-Spelling-Shooter">
+
+<iframe src="https://www.youtube.com/embed/m_Pc-6W43ZI" width="560" height="315" frameborder="0"> </iframe>
+
+
+Seu código **original** pode ser visto pelo repositório do Github [**CodeNPlay**](https://github.com/HugoUchoasBorges/CodeNPlay).
+O jogo está sendo refeito sob minha autoria no repositório [**Space-Spelling-Shooter**](https://github.com/HugoUchoasBorges/Space-Spelling-Shooter).
+{: .text-justify}
+
+Após concluído o projeto em 48horas, tivemos mais 1 hora para planejar uma apresentação e deixar o jogo nas mãos dos concorrentes, para testá-lo.
+{: .text-justify}
+
+Nesse momento nosso responsável pelo Marketing se destacou, pois teve a ideia de criar uma competição no nosso jogo nessa 1 hora, fazendo com que todos de fato *quisessem* jogar o nosso projeto e deixassem sua marca.
+{: .text-justify}
+
+Com o projeto apresentado e a campanha de marketing, acabamos conquistando a **primeira colocação** no evento.
+{: .text-justify}
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/about/codenplay_premio.jpg" alt="Troféu Code 'N Play">
+
+Sobre a utilização do *Git* na GameJam, não foi um sucesso absoluto, mas de fato simplificou nosso trabalho e permitiu a integração dos nossos códigos.
+Nosso maior ganho com essa experiência foi um conhecimento inicial de como seria hoje a nossa utilização de *Git* para jogos.
+{: .text-justify}
+
+* <A href="#resumo">Voltar ao Início</A>
+
+# Dev-U
+
+Após a *Code 'N Play*, um de seus grupo participantes tomou a iniciativa e criaram um projeto especial na faculdade para o ensino e desenvolvimento de jogos. O projeto se chama **Dev-U** (*Developers Unifei*).
+{: .text-justify}
+
+O grupo é formado atualmente por 30 membros, separados nas áreas:
+{: .text-justify}
+* Game Design;
+* Programação;
+* Som;
+* Artes;
+* Gestão.
+
+Temos reuniões semanalmente separadas para cada área, além das reuniões gerais, onde todas as áreas se encontram.
+{: .text-justify}
+
+Quando existem projetos em andamento, as recorrência das reuniões de áreas são menores, para que cada projeto possa se organizar e ter mais tempo para trabalhar.
+{: .text-justify}
+
+O primeiro processo seletivo para o projeto aconteceu em março de 2018. Entrei como programador e responsável pelo [repositório Github](https://github.com/dev-u) da equipe, encarregado por ministrar treinamentos de *Git* a todos os membros.
+{: .text-justify}
+
+* <A href="#resumo">Voltar ao Início</A>
+
+{% comment %}
+ # ---------------------------------------------------------------------------------------------------------------------------------------- #
+{% endcomment %}
+
+## QuizENA
+
+Após alguns treinamentos básicos de desenvolvimento em **Construct2**, **Unity** e **Git** passados a equipe, decidimos partir para a criação de alguns projetos para o evento [**VII Encontro das Novas Artes**](https://www.facebook.com/events/587380191645553/), na própria *UNIFEI*.
+{: .text-justify}
+
+Fiquei encarregado pela programação de um jogo de *Quiz*, para o evento, o qual chamamos de [**QuizENA**](/quiz-ena/).
+{: .text-justify}
+
+O jogo é um quiz simples, feito como nosso primeiro projeto em **Construct2**, onde o jogador tem um catálogo de questões alternativas, sorteadas, sobre os assuntos do evento:
+{: .text-justify}
+* Jogos;
+* Animes;
+* HQs.
+
+O jogo dá ao jogador *1 minuto* para responder o máximo de perguntas possíveis. Acertos em sequência aumentam o multiplicador de pontuação e dão mais tempo ao jogador. Erros sequenciais penalizam o jogador, decrementando o tempo disponível para responder às questões.
+{: .text-justify}
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/about/quiz_ena_01.JPG" alt="Quiz ENA">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/about/quiz_ena_02.JPG" alt="Quiz ENA">
+
+<iframe src="https://www.youtube.com/embed/KAEVWONm5ks" width="560" height="315" frameborder="0"> </iframe>
+
+
+* <A href="#resumo">Voltar ao Início</A>
+
+{% comment %}
+ # ---------------------------------------------------------------------------------------------------------------------------------------- #
+{% endcomment %}
+
+## Diretor de Programação
+
+Após alguns meses como programador e responsável por *Git* na equipe, fui selecionado para o cargo de diretor de programação.
+{: .text-justify}
+
+Como diretor, meu trabalho é ser o representante dos programadores, integrando também a equipe como gestor e planejando tarefas/atividades/treinamentos para os programadores, de forma que eles sempre estejam aprendendo e/ou trabalhando.
+{: .text-justify}
+
+Como programador, acredito que nosso papel, além de estruturar a base e as *features* dos jogos, seja o de fornecer ferramentas para que todas as áreas possam interagir com o desenvolvimento do jogo com a mesma liberdade dos programadores.
+{: .text-justify}
+
+Estando na posição de diretor, pude organizar reuniões focadas em pontos que acredito serem essenciais para um programador de jogos:
+{: .text-justify}
+* Desenvolvimento em equipe utilizando *Git* [(*Link para o material utilizado*)](https://drive.google.com/file/d/1HReNjok6QGa6Mw18hwmjRJqy9TFKiD2R/view); 
+* Organização e fluxo automatizado de tarefas organizadas em Kanbans [*(Kanban exemplo)*](https://github.com/HugoUchoasBorges/Space-Spelling-Shooter/projects/1
+); 
+* Padrões de Projeto [*(link para o livro utilizado)*](http://www.gameprogrammingpatterns.com/); 
+* Game Feel; 
+* Experência como Game Designers.
+
+
+Um exemplo de atividade que proponho para os programadores é a recriação de mecânicas famosas (e interessantes) de jogos.
+{: .text-justify}
+
+A ideia não é apenas criar algo parecido com a mecânica escolhida, mas a replicar **fielmente**. Para isso é exigido um real trabalho de avaliação, dezenas de variáveis de controle e muita paciência. 
+{: .text-justify}
+
+Essa é uma atividade ótima para que o programador desenvolva um senso crítico e habilidades como *Game Designer*.
+{: .text-justify}
+
+Exemplo de Super Mario World recriado em uma das reuniões:
+{: .text-justify}
+
+<iframe src="https://www.youtube.com/embed/3w6SEJxa9wk" width="560" height="315" frameborder="0"> </iframe>
+[(*Código Fonte*)](https://github.com/dev-u/games-mechanisms/tree/develop/Hugo/Super%20Mario%20World)
+
+
+O vídeo acima foi feito em **Unity**, utilizando um simples controlador para o personagem e uma máquina de estados de animação.
+{: .text-justify}
+
+Perceba a quantidade variáveis disponíveis no *Inspector* do *Player*. Para que seja atingida uma fidelidade maior na movimentação do Mario, foram necessárias muitas sessões de jogatina, ajustando as variáveis disponibilizadas no Inspector. 
+{: .text-justify}
+
+Sabendo *na prática* que tipo de variáveis um *Game Designer* precisaria para controlar o **Game Feel** de uma mecânica, um programador terá a experiência para fornecer ferramentas à toda equipe de desenvolvedores do jogo.
+{: .text-justify}
+
+* <A href="#resumo">Voltar ao Início</A>
+
+{% comment %}
+ # ---------------------------------------------------------------------------------------------------------------------------------------- #
+{% endcomment %}
+
+## Emburradinho
+
+
+<html>
+    <div class="resp-container">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/438116?border_width=5" width="560" height="175">
+        </iframe>
+    </div>
+</html>
+
+
+No mês de Outubro foram iniciados alguns projetos pela *Dev-U*. Dentre eles, fiquei encarregado como diretor de um projeto chamado **Emburradinho**. 
+{: .text-justify}
+
+
+**Emburradinho** é um jogo com a premissa simples, inspirado no jogo *Doodle Jump*, onde o jogador terá que subir por diferentes plataformas em um cenário fechado horizontalmente.
+{: .text-justify}
+
+Apesar da inspiração, *Emburradinho* é um jogo completamente diferente. A começar pela sua mecânica de pulo, onde ao invés do jogador controlar apenas a movimentação lateral dos pulos, o mesmo controla todo o pulo, desde sua preparação até sua trajetória.
+{: .text-justify}
+
+<iframe src="https://www.youtube.com/embed/v5qOpPPZsl4" width="560" height="315" frameborder="0"> </iframe>
+
+O jogo teve sua fase de prototipação finalizada no começo de novembro, e seu código fonte está disponível no [**Github**](https://github.com/dev-u/Emburradinho_prototipo).
+{: .text-justify}
+
+A ideia do jogo surgiu a partir da [*página do meu cunhado*](https://www.facebook.com/DevaneiosMalHumorados/), onde são feitas tirinhas e seu gato é o mascote da página.
+{: .text-justify}
+
+Como a página teve um bom alcance e o gato teve bastante destaque entre os seguidores, achei que seria uma boa ideia fazer um jogo da página, estreando o gato como personagem principal.
+{: .text-justify}
+
+No protótipo exibido está sendo utilizada uma spritesheet de terceiros como *place holder*, mas o jogo final está sendo desenvolvido tendo como base sprites do gato [*semelhantes aos da página*](https://www.facebook.com/DevaneiosMalHumorados/photos/a.2336121053280678/2514394192120029/?type=3&theater
+).
+{: .text-justify}
+
+Artes da prototipação de algumas mecânicas do jogo:
+{: .text-justify}
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/about/mufasa_01.JPG" alt="Mufasa">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/about/mufasa_02.JPG" alt="Mufasa">
+
+* <A href="#resumo">Voltar ao Início</A>
+
+{% comment %}
+ # ---------------------------------------------------------------------------------------------------------------------------------------- #
+{% endcomment %}
+
+## GameJam - Death-Corp
+
+
+<html>
+    <div class="resp-container">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/399043?border_width=5" width="560" height="175">
+        </iframe>
+    </div>
+</html>
+
+
+Durante o período do dia 26/03 à 31/03 foi realizada a **DevuJam #1**. A primeira GameJam interna da *Dev-U* de 2019. O tema foi: **Aprendendo com a Morte**.
+{: .text-justify}
+
+Nossa ideia de jogo foi um *Idle Game Clicker* com o tema de morte. Onde controlamos a morte (imagem abaixo), gerenciando uma corporação de coleta de almas da Terra.
+{: .text-justify}
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/death-corp/logo.png" alt="Deathinho">{: .center-image}
+
+**Imagens:**
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/death-corp/Print000.png" alt="Print000">
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/death-corp/Print001.png" alt="Print001">
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/death-corp/Print002.png" alt="Print002">
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/death-corp/Print003.png" alt="Print003">
+
+* <A href="#resumo">Voltar ao Início</A>
+
+{% comment %}
+ # ---------------------------------------------------------------------------------------------------------------------------------------- #
+{% endcomment %}
+
+
+## GameJam - CPG 2019
+
+<html>
+    <div class="resp-container">
+        <iframe class="resp-iframe" frameborder="0" src="https://itch.io/embed/425358?border_width=5" width="560" height="175">
+        </iframe>
+    </div>
+</html>
+
+
+Durante os dias 17/05 à 19/05 foi realizada a terceira *GameJam* anual do [**INATEL**](https://www.inatel.br/), a chada [**Coding, Pizza & Glory 2019**](https://www.inatel.br/hackathongames/).
+{: .text-justify}
+
+Nossa ideia de jogo foi um jogo de luta multiplayer local chamado **The Chosen-Two**.
+{: .text-justify}
+
+
+Com **The Chosen Two**, conquistamos a premiação de melhor arte no evento.
+{: .text-justify}
+
+### Links
+
+- Itch.io: [**Link**](https://hugouchoasborges.itch.io/the-chosen-two)
+- Github: [**Link**](https://github.com/HugoUchoasBorges/the-chosen-two)
+
+## Imagens
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/the-chosen-two/01.jpeg" alt="Print001">
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/the-chosen-two/02.jpeg" alt="Print002">
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/the-chosen-two/03.jpeg" alt="Print003">
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/the-chosen-two/04.png" alt="Print004">
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/the-chosen-two/05.jpeg" alt="Print005">
+
+
 
 * <A href="#resumo">Voltar ao Início</A>
 
