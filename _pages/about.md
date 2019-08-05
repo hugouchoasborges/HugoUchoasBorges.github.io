@@ -28,7 +28,7 @@ Gosto de estar sempre aprendendo. Dedico meu tempo livre ao estudo e prática no
 
 ## Meu Trabalho Hoje
 
-Estou há pouco mais de 1 ano trabalhando como desenvolvedor Python para o ERP Odoo, na empresa [KMEE Informática LTDA](https://www.kmee.com.br/), em Itajubá-MG. Meu trabalho é desenvolver, dar manutenção e suporte aos nossos repositórios e de nossos clientes.
+Estou há pouco mais de 2 anos trabalhando como analista desenvolvedor de sistemas Python para o ERP Odoo, na empresa [KMEE Informática LTDA](https://www.kmee.com.br/), em Itajubá-MG. Meu trabalho é especificar , desenvolver, dar manutenção e suporte aos nossos sistemas e de nossos clientes.
 {: .text-justify}
 
 Minhas funções no cargo incluem:
