@@ -8,7 +8,7 @@ header:
 
 ## Resumo
 
-Desenvolvedor independente de jogos e Analista desenvolvedor de sistemas python na empresa [KMEE Informática LTDA](https://www.kmee.com.br/).
+Desenvolvedor de Jogos Unity pela empresa [Hydra Systems](http://www.hydrasystems.com.br/).
 {: .text-justify}
 **Formação:** Engenheiro de Computação pela Universidade Federal de Itajubá - Turma 2013.
 {: .text-justify}
@@ -29,6 +29,7 @@ Gosto de estar sempre aprendendo. Dedico meu tempo livre ao estudo e prática no
 
 ### **Links Rápidos**
 * <A href="#meu-trabalho-hoje">Meu Trabalho Hoje</A>
+* <A href="#minha-última-experiência-profissional">Minha Última Experiência Profissional</A>
 * <A href="#desenvolvimento-de-jogos">Desenvolvimento de Jogos</A>
     * <A href="#primeiro-projeto">Primeiro Projeto</A>
     * <A href="#primeira-gamejam">Primeira GameJam</A>
@@ -39,9 +40,20 @@ Gosto de estar sempre aprendendo. Dedico meu tempo livre ao estudo e prática no
     * <A href="#gamejam---death-corp">GameJam - Death-Corp</A>
 * <A href="#gamejam---cpg-2019">GameJam - CPG 2019</A>
 
+* <A href="#resumo">Voltar ao Início</A>
+
 ## Meu Trabalho Hoje
 
-Estou há pouco mais de 2 anos trabalhando como analista desenvolvedor de sistemas Python para o ERP Odoo, na empresa [KMEE Informática LTDA](https://www.kmee.com.br/), em Itajubá-MG. Meu trabalho é especificar , desenvolver, dar manutenção e suporte aos nossos sistemas e de nossos clientes.
+Atualmente sou desenvolvedor de jogos em Unity pela empresa [Hydra Systems](http://www.hydrasystems.com.br/) em Florianópolis/SC.
+Comecei como Programador Júnior na empresa em Abril/2020, onde continuo até o momento.
+
+{% comment %}
+ # ---------------------------------------------------------------------------------------------------------------------------------------- #
+{% endcomment %}
+
+## Minha Última Experiência Profissional
+
+Trabalhei por pouco mais de 2 anos trabalhando como analista desenvolvedor de sistemas Python para o ERP Odoo, na empresa [KMEE Informática LTDA](https://www.kmee.com.br/), em Itajubá-MG. Meu trabalho era especificar , desenvolver, dar manutenção e suporte aos nossos sistemas e de nossos clientes.
 {: .text-justify}
 
 Minhas funções no cargo incluem:
