@@ -17,9 +17,13 @@ header:
     </div>
 </html>
 
-- Github: [**Link**](https://github.com/HugoUchoasBorges/emburradinho)
+- Página do jogo: [**Emburradinho**](emburradinho/)
 
-## **SSShooter** (Em Desenvolvimento)
+{% comment %}
+- Github: [**Link**](https://github.com/HugoUchoasBorges/emburradinho)
+{% endcomment %}
+
+## **SSShooter** (Desenvolvimento Pausado)
 
 <html>
     <div class="resp-container">
