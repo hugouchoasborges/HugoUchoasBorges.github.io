@@ -6,7 +6,7 @@ header:
     overlay_image: "/images/emburradinho/emburradinho_banner.jpg"
 ---
 
-[**Voltar ao Jogo**](/games/emburradinho/)
+[**Voltar ao Jogo**](/games/emburradinho)
 
 
 ## Privacy Policy

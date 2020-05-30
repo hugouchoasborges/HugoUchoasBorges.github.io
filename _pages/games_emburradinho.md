@@ -6,15 +6,15 @@ header:
     overlay_image: "/images/emburradinho/emburradinho_banner.jpg"
 ---
 
-[**Política de Privacidade**](privacy-policy/)
+[**Política de Privacidade**](privacy-policy)
 
 ## Emburradinho
 
-No mês de Outubro foram iniciados alguns projetos pela *Dev-U*. Dentre eles, fiquei encarregado como diretor de um projeto chamado [**Emburradinho**](/emburradinho/). 
+No mês de Outubro foram iniciados alguns projetos pela *Dev-U*. Dentre eles, fiquei encarregado como diretor de um projeto chamado [**Emburradinho**](/emburradinho). 
 {: .text-justify}
 
 
-[**Emburradinho**](/emburradinho/) é um jogo com a premissa simples, inspirado no jogo *Doodle Jump*, onde o jogador terá que subir por diferentes plataformas em um cenário fechado horizontalmente.
+[**Emburradinho**](/emburradinho) é um jogo com a premissa simples, inspirado no jogo *Doodle Jump*, onde o jogador terá que subir por diferentes plataformas em um cenário fechado horizontalmente.
 {: .text-justify}
 
 Apesar da inspiração, *Emburradinho* é um jogo completamente diferente. A começar pela sua mecânica de pulo, onde ao invés do jogador controlar apenas a movimentação lateral dos pulos, o mesmo controla todo o pulo, desde sua preparação até sua trajetória.
