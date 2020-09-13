@@ -20,6 +20,7 @@ Gosto de estar sempre aprendendo. Dedico meu tempo livre ao estudo e prática no
 ## Links de Acesso:
 * Currículo: [**Link**](/assets/files/Curriculo.pdf)
 * Jogos: [**Link**](/games/)
+* Google Play: [**Link**](https://play.google.com/store/apps/developer?id=Hugo+Uch%C3%B4as+Borges)
 * Github: [**Link**](https://www.github.com/HugoUchoasBorges)
 * Github Gists: [**Link**](https://gist.github.com/hugouchoasborges)
 * itch.io: [**Link**](https://hugouchoasborges.itch.io/)
