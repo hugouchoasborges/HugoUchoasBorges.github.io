@@ -8,7 +8,7 @@ header:
 
 # Jogos
 
-## **Emburradinho** (Em Desenvolvimento)
+## **Emburradinho (Versão Atualizada na Google Play)**
 
 <html>
     <div class="resp-container">
@@ -18,6 +18,7 @@ header:
 </html>
 
 - Página do jogo: [**Emburradinho**](emburradinho/)
+- Link Google Play: [**Emburradinho**](https://github.com/HugoUchoasBorges/emburradinho)
 
 {% comment %}
 - Github: [**Link**](https://github.com/HugoUchoasBorges/emburradinho)
