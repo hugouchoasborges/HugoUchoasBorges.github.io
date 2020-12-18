@@ -18,7 +18,7 @@ header:
 </html>
 
 - Página do jogo: [**Emburradinho**](emburradinho/)
-- Link Google Play: [**Emburradinho**](https://github.com/HugoUchoasBorges/emburradinho)
+- Link Google Play: [**Emburradinho**](https://play.google.com/store/apps/details?id=com.hugouchoasborges.emburradinho&hl=pt)
 
 {% comment %}
 - Github: [**Link**](https://github.com/HugoUchoasBorges/emburradinho)
