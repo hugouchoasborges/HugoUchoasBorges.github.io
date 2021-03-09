@@ -24,6 +24,10 @@ title   : Your Site Title
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
+# ONLY FOR THE CURRICULUM
+theme_skin: ceramic # blue turquoise green berry orange ceramic
+chrome_mobile_color: 3C5560 #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar  
+
 
 ## => Language and Timezone
 ##############################
@@ -176,12 +180,25 @@ analytics:
     tracking_id : # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
+## => Sass/SCSS
+##############################
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 
 ## => Build
 ##############################
 markdown    : kramdown
 highlighter : rouge
 permalink   : date
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
 
 exclude:
   - CHANGELOG.md
@@ -223,3 +240,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
+## => Development Settings
+##############################
+port: 4000
+host: 0.0.0.0
+safe: false

@@ -99,6 +99,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  jekyll-paginate
   jekyll-text-theme!
   kramdown-parser-gfm
   rake (~> 10.0)
