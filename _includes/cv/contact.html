@@ -1,5 +1,12 @@
+{% assign resume-pdf = site.data.cv.resume-pdf %}
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
+
+    {% if resume-pdf %}
+    <li class="resume"><i class="fas fa-file-pdf"></i>
+      <a href={{ resume-pdf.link }}>{{ resume-pdf.title }}</a>
+    </li>
+    {% endif %}
 
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
