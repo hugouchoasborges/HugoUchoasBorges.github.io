@@ -2,9 +2,15 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
-    {% if resume-pdf %}
+    <!-- {% if resume-pdf %}
     <li class="resume"><i class="fas fa-file-pdf"></i>
       <a href={{ resume-pdf.link }}>{{ resume-pdf.title }}</a>
+    </li>
+    {% endif %} -->
+
+    {% if sidebar.address %}
+    <li class="resume"><i class="fas fa-map-marker-alt"></i>
+      <a href="https://maps.google.com/?q="{{ sidebar.address }}>{{ sidebar.address }}</a>
     </li>
     {% endif %}
 

@@ -9,6 +9,7 @@ layout: page
 {%- endif -%}
 
 {%- assign _articles = nil -%}
+
 {%- for _key in _keys -%}
   {%- if forloop.first -%}
     {%- case _key -%}
@@ -29,7 +30,9 @@ layout: page
   {%- endif -%}
 {%- endfor -%}
 
+
 {%- assign _type = page.articles.type | default: layout.articles.type -%}
+
 
 {%- if _articles -%}
 
