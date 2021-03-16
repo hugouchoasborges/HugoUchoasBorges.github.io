@@ -1,17 +1,13 @@
 language: ruby
 rvm:
-  - 2.4.1
-branches:
-  only:
-  - master
-before_script: cp -rfv docs/_includes .
-script: JEKYLL_ENV=production bundle exec jekyll build --config ./docs/_config.yml
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: _site
-  keep-history: true
-  on:
-    branch: master
-    target_branch: gh-pages
+- 2.3.3
+
+install: 
+    - gem install github-pages
+    - gem install sass -v 3.5.1
+    - gem install kramdown
+script: 
+    - bundle exec jekyll build
+
+sudo: false
+exclude: [vendor]

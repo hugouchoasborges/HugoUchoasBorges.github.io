@@ -1,89 +1,100 @@
-# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
+Freelancer Jekyll theme  [![Build Status](https://travis-ci.org/digvijayad/freelancer-theme.svg?branch=master)](https://travis-ci.org/digvijayad/freelancer-theme)
+=========================
 
-[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
-[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
-[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
-[![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
+Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/) and the timeline from [Agency bootstrap theme](http://startbootstrap.com/template-overviews/agency/) 
+## Features: 
+ - Header Image
+ - Timeline from Agency Theme [Agency Theme Timeline](https://blackrockdigital.github.io/startbootstrap-agency/#about)
+ - Blog
+ 
+## Preview 
+![screenshot](https://user-images.githubusercontent.com/19765483/31866545-c52cf0ae-b746-11e7-9f00-6b0c3fa21ca3.PNG)
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+## Live Demo
+View this jekyll theme in action [here](https://digvijayad.github.io/freelancer-theme)
 
-![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png)
+## How to use
+ #### Site Variables
+ - Set your site content such as name, title, footer in `_config.yml`
+ 
+ #### Header Image
+ - Place your Header Background image in `/img/` and change the value of `header-bg` in `_config.yml` to the image name.
+ - If you don't want a header image then add a `#` before the `header-bg` to comment it out.
+ 
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+ #### BLog
+ - To enable or disable the blog, set the `set-blog` in `_config.yml` to `true` or `false`.
+ - Create posts to display on your blog.
+  
+ 
+ #### Portfolio
+ - Place your portfolio images in `/img/portfolio/`
+ - Enter your portfolio data in `_data/projects.yml`. Just edit the values from the default file.
+```txt
+- id: "1"
+  title: "Your Project 1 Title"
+  pic_name: "cabin.png"         #The full project image inside the model
+  icon_name: "game.png"         #image shown in the grid.
+  description: "Project 1 Description."
+  points: 
+    - title: "Client:"
+      links:
+        - title: "The Client"
+          href: https://startbootstrap.com/template-overviews/freelancer/
+    - title: "Date:"
+      links:
+        - title: "December 2016"
+          href: "#"
+    - title: "Service:"
+      links:
+        - title: "Web Development"
+          href: https://startbootstrap.com
+```
 
-**[Change Log](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)**
+ - Keep in mind you can add as my links as you want, say For example you want to add another link to a service. Then just add another `title` and `href` under the first one.
+ - Or you want to add another point, such as Languages used for Project. Then just add another `title` and `links` .
+```txt 
+ points: 
+    - title: "Client:"
+      links:
+        - title: "The Client"
+          href: https://startbootstrap.com/template-overviews/freelancer/
+    - title: "Date:"
+      links:
+        - title: "December 2016"
+          href: "#"
+    - title: "Service:"
+      links:
+        - title: "Web Development"
+          href: https://startbootstrap.com
+        - title: "Service 2"
+          href: https://example.com
+    - title: "Languages Used"
+      links:
+        - title: "C#"
+        - href: linkToC#.com
+        
+```
 
-## Features
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+ #### Experience/Timeline
+ - Place your images in `/img/timeline`
+ - Enter your timeline data in `_data/experience.yml`. Just edit the values from the default file.
+ - The following example is for the item on right side of timeline. For left side leave the class blank. i.e `class: ""`.
+```txt
 
-## Skins
+- class: "timeline-inverted"
+  icon: "2.jpg"
+  icon-alt: "alternate text for image"
+  title: "Your Experience Title"
+  sub_title: "Some cachy title"
+  description: | 
+        Description for your Experience. 
+        Can expand to multiple lines <br>
+        Write whatever you want.<br>
+        If you want a paragragh then remove the `br` tags .<br>
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+```
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
-
-## Documentation
-
-### Start
-
-- [Quick Start](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start)
-- [Update from 1.x to 2.x](https://tianqi.name/jekyll-TeXt-theme/docs/en/update-from-1-to-2)
-
-### Customization
-
-- [Configuration](https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration)
-- [Navigation](https://tianqi.name/jekyll-TeXt-theme/docs/en/navigation)
-- [Layouts](https://tianqi.name/jekyll-TeXt-theme/docs/en/layouts)
-- [Logo and Favicon](https://tianqi.name/jekyll-TeXt-theme/docs/en/logo-and-favicon)
-- [Authors](https://tianqi.name/jekyll-TeXt-theme/docs/en/authors)
-- [Internationalization](https://tianqi.name/jekyll-TeXt-theme/docs/en/i18n)
-
-### Content
-
-- [Writing Posts](https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts)
-- [Additional styles](https://tianqi.name/jekyll-TeXt-theme/docs/en/additional-styles)
-- [Extensions](https://tianqi.name/jekyll-TeXt-theme/docs/en/extensions)
-- [Markdown Enhancements](https://tianqi.name/jekyll-TeXt-theme/docs/en/markdown-enhancements)
-
-## Demo Pages
-
-| Name | Description |
-| --- | --- |
-| [Home](https://tianqi.name/jekyll-TeXt-theme/test/) | Home page |
-| [Archive](https://tianqi.name/jekyll-TeXt-theme/archive.html) | Archive page |
-| [Layout Examples](https://tianqi.name/jekyll-TeXt-theme/samples.html) | Examples for different layouts |
-
-## License
-
-TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+---------
+For more details, read the [documentation](http://jekyllrb.com/)
