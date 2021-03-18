@@ -42,10 +42,11 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 5 Free';
   font-size: 2em;
   position: relative;
   top: -.8em;
+  font-weight: 600;
   display: inline-block;
   padding: 0 0.25em;
   content: '\f005';
