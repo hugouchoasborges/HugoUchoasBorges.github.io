@@ -3,7 +3,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Hugo Borges - Potfólio
+title: Hugo Borges
 email: hugouchoas@outlook.com
 description: >-                       # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this line in _config.yml. 
@@ -12,7 +12,13 @@ baseurl:                            # the subpath of your site, e.g. /blog
 url:                             # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  hugouchoasborges
-skills: Game Developer - Grap Artist - User Experience Designer
+skills: Desenvolvedor Unity - Programador
+
+about:
+  p1: Desenvolvedor independente de jogos em Unity. Engenheiro de Computação pela Universidade Federal de Itajubá - UNIFEI.
+  p2: Experiência em programação C# para Unity, controle de versões GIT, especificação, gerenciamento e execução de atividades em equipes.
+  button_text: Ver Formação Completa
+  button_link: /resume
 
 # Header Settings
 set_blog: true                        # Display blog? 
@@ -22,31 +28,37 @@ header_bg_title: <a href='http://www.freepik.com'>Background image Designed by F
 # Footer settings
 footer:                               #Footer Headers
   copyright: hugouchoasborges
-  location: Location
-  social: Around the Web
-  credits: ABOUT FREELANCER
+  location: Localização
+  social: Redes e Contatos
+  credits: SOBRE O SITE
   
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # For more icons look at http://fontawesome.io/icons/#brand
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: linkedin
-    url: https://linkedin.com
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://www.linkedin.com/in/hugo-uchoas-borges/
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/hugouchoasborges
+  - title: facebook
+    url: https://www.facebook.com/hugo.uchoas.borges
+  - title: instagram
+    url: https://www.instagram.com/hugo.uchoas.borges/
+  - title: itch-io
+    url: https://hugouchoasborges.itch.io/
+  # - title: twitter
+  #   url: http://twitter.com/jekyllrb
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: bitbucket
+  #   url: http://bitbucket.org/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Campeche
+  - line: Florianópolis - SC
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Freelancer é um tema Bootstrap gratuito para utilização e de código aberto criado por <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
