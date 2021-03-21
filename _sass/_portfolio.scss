@@ -8,11 +8,14 @@
         opacity: 1 !important;
       }
     .title{
-        top: 70% !important;
+        top: 95% !important;
         position: absolute;
         width: 100%;
         height: 100%;
       }
+    .title p{
+        background-color: $theme-success;
+    }
     .caption-content{
       i{
         opacity: 1 !important;
@@ -21,6 +24,12 @@
   }
 }
 #portfolio {
+  .img-fluid.off, .portfolio-link:hover .img-fluid.on{
+    display:none
+  }
+  .img-fluid.on, .portfolio-link:hover .img-fluid.off{
+    display:block
+  }
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -41,7 +50,8 @@
         transition: all ease 0.5s;
         // opacity: 0;
         opacity: 1;
-        background: fade-out($theme-success, .1);
+        //background: fade-out($theme-success, .1);
+        background: fade-out($theme-success, 1);
         &:hover {
           opacity: 1;
         }

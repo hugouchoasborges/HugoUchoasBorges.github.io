@@ -1,7 +1,8 @@
 - id: "1"
   title: "Emburradinho"
-  pic_name: "emburradinho/emburradinho.png"
-  icon_name: "emburradinho/emburradinho.png"
+  modal_picture: "emburradinho/emburradinho.png"
+  icon_picture: "emburradinho/emburradinho.png"
+  icon_hover_picture: "emburradinho/emburradinho_gif.gif"
   description: |
     Emburradinho é um jogo simples e divertido com uma arte única.
     Suba o máximo que conseguir, coletando comidinhas e desbloqueando conquistas.
@@ -24,8 +25,9 @@
     
 - id: "2"
   title: "Project 2"
-  pic_name: "cake.png"
-  icon_name: "cake.png"
+  modal_picture: "cake.png"
+  icon_picture: "cake.png"
+  icon_hover_picture: "cake.png"
   description: |
     Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
     On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
@@ -54,8 +56,9 @@
     
 - id: "3"
   title: "Project 3"
-  pic_name: "circus.png"
-  icon_name: "circus.png"
+  modal_picture: "circus.png"
+  icon_picture: "circus.png"
+  icon_hover_picture: "circus.png"
   description: |
     Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
     On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
@@ -84,8 +87,9 @@
     
 - id: "4"
   title: "Project 4"
-  pic_name: "game.png"
-  icon_name: "game.png"
+  modal_picture: "game.png"
+  icon_picture: "game.png"
+  icon_hover_picture: "game.png"
   description: |
     Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
     On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
@@ -115,8 +119,9 @@
     
 - id: "5"
   title: "Project 5"
-  pic_name: "safe.png"
-  icon_name: "safe.png"
+  modal_picture: "safe.png"
+  icon_picture: "safe.png"
+  icon_hover_picture: "safe.png"
   description: |
     Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
     On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
@@ -145,8 +150,9 @@
     
 - id: "6"
   title: "Project 6"
-  pic_name: "submarine.png"
-  icon_name: "submarine.png"
+  modal_picture: "submarine.png"
+  icon_picture: "submarine.png"
+  icon_hover_picture: "submarine.png"
   description: |
     Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
     On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!

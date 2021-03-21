@@ -33,8 +33,8 @@ View this jekyll theme in action [here](https://digvijayad.github.io/freelancer-
 ```txt
 - id: "1"
   title: "Your Project 1 Title"
-  pic_name: "cabin.png"         #The full project image inside the model
-  icon_name: "game.png"         #image shown in the grid.
+  modal_picture: "cabin.png"         #The full project image inside the model
+  icon_picture: "game.png"         #image shown in the grid.
   description: "Project 1 Description."
   points: 
     - title: "Client:"
