@@ -82,3 +82,8 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# RESUME SECTION
+theme_skin: ceramic # blue turquoise green berry orange ceramic
+chrome_mobile_color: 3C5560 #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar  
