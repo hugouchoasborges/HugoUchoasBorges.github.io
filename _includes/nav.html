@@ -17,9 +17,14 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" data-target="#experience" href="{{site.github.url}}/#experience">Experiência</a>
         </li>
-        {% if site.set_blog %}
+        {% if site.header.set_blog %}
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" data-target="/blog" href="{{site.github.url}}/blog">Blog</a>
+        </li>
+        {% endif %}
+        {% if site.header.set_resume %}
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" data-target="/resume" href="{{site.github.url}}/resume">Currículo</a>
         </li>
         {% endif %}
       </ul>

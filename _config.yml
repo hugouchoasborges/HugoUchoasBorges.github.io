@@ -21,9 +21,11 @@ about:
   button_link: /resume
 
 # Header Settings
-set_blog: true                        # Display blog? 
-header_bg: background.jpg          # Header background Image
-header_bg_title: <a href='http://www.freepik.com'>Background image Designed by Freepik</a>
+header:
+  set_resume: true                   # Display resume? 
+  set_blog: false                    # Display blog? 
+  header_bg: background.jpg          # Header background Image
+  header_bg_title: <a href='http://www.freepik.com'>Background image Designed by Freepik</a>
 
 # Footer settings
 footer:                               #Footer Headers
