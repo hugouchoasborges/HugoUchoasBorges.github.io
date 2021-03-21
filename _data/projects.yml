@@ -1,33 +1,26 @@
 - id: "1"
-  title: "Project 1"
-  pic_name: "cabin.png"
-  icon_name: "cabin.png"
+  title: "Emburradinho"
+  pic_name: "emburradinho/emburradinho.png"
+  icon_name: "emburradinho/emburradinho.png"
   description: |
-    Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
-    On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+    Emburradinho é um jogo simples e divertido com uma arte única.
+    Suba o máximo que conseguir, coletando comidinhas e desbloqueando conquistas.
   
   points:                                 # Add as many points as necessary
-    - title: "Client"
-      links:                                # Add as many links as necessary(look at Example 1)
-        - title: "Start Bootstrap"
-          href: https://startbootstrap.com/
-    - title: "Date"
+    - title: "Game Engine"
       links:
-        - title: "December 2016"
+        - title: "Unity"
           href: "#"
-    - title: "Services"
-      links:                                # Example 1:
-        - title: "Web Development"
-          href: https://startbootstrap.com
-        - title: "Web Design"
-          href: https://startbootstrap.com
-          href: "#"
-    - title: "Languages"
+    - title: "Data"
       links:
-        - title: "html"
+        - title: "Novembro, 2020"
           href: "#"
-        - title: "SCSS"
-          href: "#"
+    - title: "Plataformas e Links"
+      links:
+        - title: "Android"
+          href: https://play.google.com/store/apps/details?id=com.hugouchoasborges.emburradinho&hl=pt
+        - title: "WebGL"
+          href: "https://hugouchoasborges.itch.io/emburradinho"
     
 - id: "2"
   title: "Project 2"
