@@ -1,8 +1,8 @@
 - id: "1"
   title: "Emburradinho"
-  modal_picture: "emburradinho/emburradinho.png"
-  icon_picture: "emburradinho/emburradinho.png"
-  icon_hover_picture: "emburradinho/emburradinho_gif.gif"
+  modal_picture: "emburradinho/icon.png"
+  icon_picture: "emburradinho/icon.png"
+  icon_hover_picture: "emburradinho/icon_hover.gif"
   description: |
     Emburradinho é um jogo simples e divertido com uma arte única.
     Suba o máximo que conseguir, coletando comidinhas e desbloqueando conquistas.
