@@ -108,6 +108,7 @@ experiences:
         [*Página do projeto*](https://unifei.edu.br/extensao/extensao-tecnologica-e-empresarial/projetos-especiais/itajuba/equipe-dev-u/)
 
 projects:
+    show: false
     title: Projetos
     intro: >
       Aqui estão listados alguns de meus projetos. A lista completa pode ser vista <a href="games">neste link</a>.
