@@ -14,10 +14,10 @@
                 <div class="modal-body">
                   <h2>{{project.title}}</h2>
                   <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="{{site.github.url}}/img/portfolio/{{project.modal_picture}}" alt="">
+                  <img class="img-fluid img-centered" src="{{site.github.url}}/img/portfolio/{{project.modal.pictures[0].src}}" alt="">
                   <p>{{project.description}}</p>
                   <ul class="list-inline item-details">
-                    {% for point in project.points %}
+                    {% for point in project.modal.points %}
                     <li>{{point.title}}:
                       <strong>
                         {% for link in point.links %}
