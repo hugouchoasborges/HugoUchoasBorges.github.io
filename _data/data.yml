@@ -68,7 +68,7 @@ education:
 experiences:
     - role: Desenvolvedor Unity
       time: Abr 2020 - Atual
-      company: Hydra SYstems, Florianópolis/SC
+      company: Hydra Systems, Florianópolis/SC
       details: |
         Programador de jogos em C# na game engine Unity. Tenho experiência com infraestruturas de sistemas para lidar com 
         múltiplos jogos. Comunicação com servidores para controle de sessão de usuário e sincronização multiplayer.
