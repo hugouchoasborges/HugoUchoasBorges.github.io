@@ -41,41 +41,59 @@
             href: "https://hugouchoasborges.itch.io/emburradinho"
     
 - id: "2"
-  title: "Project 2"
-  icon_picture: "cake.png"
-  icon_hover_picture: "cake.png"
+  title: "Crowlie"
+  icon_picture: "crowlie/icon.png"
+  icon_hover_picture: "crowlie/icon_hover.gif"
   description: |
-    Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
-    On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+    Crowlie é uma experiência simples criada em 1 semana para a GlobalGameJam 2021
   
   modal:
     pictures:
-      - src: "cake.png"
+      - src: "crowlie/img_01.png"
         title: ""
-      - src: "circus.png"
+      - src: "crowlie/img_02.png"
         title: ""
-    points: 
-      - title: "Client"
+      - src: "crowlie/img_03.png"
+        title: ""
+      - src: "crowlie/img_04.png"
+        title: ""
+      - src: "crowlie/img_05.png"
+        title: ""
+    points:                                 # Add as many points as necessary
+      - title: "Game Engine"
         links:
-          - title: "Start Bootstrap"
-            href: https://startbootstrap.com/
-      - title: "Date"
+          - title: "Unity"
+            href: "#"
+      - title: "Data"
         links:
-          - title: "December 2016"
+          - title: "Janeiro, 2021"
             href: "#"
-      - title: "Services"
+      - title: "Repositório"
         links:
-          - title: "Web Development"
-            href: https://startbootstrap.com
-          - title: "Web Design"
-            href: https://startbootstrap.com
-            href: "#"
-      - title: "Languages"
+          - title: "Github"
+            href: https://github.com/hugouchoasborges/ggj2021
+      - title: "Global Game Jam 2021"
         links:
-          - title: "html"
-            href: "#"
-          - title: "SCSS"
-            href: "#"
+          - title: "Crowlie"
+            href: https://globalgamejam.org/2021/games/crowlie-5
+      - title: "Créditos"
+        links:
+          - title: "Janielle Fratta"
+            href: https://globalgamejam.org/users/janielle-fratta
+          - title: "Leonardo Lima"
+            href: https://soundcloud.com/leonardolimasoundworks
+          - title: "Luana Marques"
+            href: https://www.artstation.com/luailustra
+          - title: "Gabriele Eichel"
+            href: https://www.instagram.com/gabseichel/
+          - title: "Danilo Domingues"
+            href: https://domdevcontact.wixsite.com/danilodomingues
+          - title: "João Mantovani"
+            href: https://www.instagram.com/jvmantovani/
+      - title: "Plataformas e Links"
+        links:
+          - title: "Web"
+            href: https://hugouchoasborges.itch.io/ggj2021
     
 - id: "3"
   title: "Project 3"
