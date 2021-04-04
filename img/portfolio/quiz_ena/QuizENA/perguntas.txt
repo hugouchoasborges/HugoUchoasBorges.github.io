@@ -1,0 +1,960 @@
+Qual o grupo de personagens pertencem a Guarda Infinita? ;
+Adam Warlock, Hulk, Thanos, Pip, O Colecionador, Magus;
+Magus, Adam Warlock, Drax, Serpente da Lua, Than, O Colecionador;
+Gamora, Pip, Drax, Serpente da Lua, Adam Warlock, Thanos;
+Gamora, Pip, Drax, Serpente da Lua, Adam Warlock, Thanos;
+3;
+hqs;
+|
+Quem é o responsável pelo programa do soro do super soldado no universo ultimate da marvel ?;
+Bruce Banner;
+Haword Stark;
+Hank Pym;
+Hank Pym;
+2;
+hqs;
+|
+Quantos Robins o Batman já teve ?;
+4;
+6;
+5;
+5;
+1;
+hqs;
+|
+Quem são os membros originais da Justiça Jovem?;
+Robin, Mutano e Speedy;
+Robin, Mutano e Ravena;
+Robin, SuperBoy e Kid Flash;
+Robin, SuperBoy e Kid Flash;
+2;
+hqs;
+|
+Qual o objetivo do Thanos ao reunir todas as joias do infinito?;
+Ter o controle de todo o universo;
+Destruir os demais titãs;
+Matar metade dos seres do universo;
+Matar metade dos seres do universo;
+1;
+hqs;
+|
+Em Shoukugeki no Souma, qual o tipo de faca os irmãos Aldini possuem?;
+Paring Knife;
+Cleaver;
+Mezzaluna;
+Mezzaluna;
+2;
+animes;
+|
+Em Hunter x Hunter, em qual luta Gon Freecs sacrificou todo seu potencial(sua vida)?;
+Contra o Hisoka;
+Contra o Razor;
+Contra a Neferpitou;
+Contra a Neferpitou;
+2;
+animes;
+|
+Em Boku no Hero, quem na classe 1-A possui a peculiaridade Animal Voice?;
+Mezo Shoji;
+Hanta Sero;
+Koji Koda;
+Koji Koda;
+3;
+animes;
+|
+Em Sword Art Online, quem é o lider da guilda Cavaleiros do Juramento de Sangue?;
+Kirigaya;
+Nobuyuki;
+Heathcliff;
+Heathcliff;
+2;
+animes;
+|
+Qual o nome do filho do Kratos?;
+Atheus;
+Atros;
+Atreus;
+Atreus;
+1;
+jogos;
+|
+Qual o nome do protagonistada série Witcher?;
+Gerald;
+Gerard;
+Geralt;
+Geralt;
+1;
+jogos;
+|
+Qual era o nome original do Mario?;
+Plumber man;
+Mario Bros;
+Jumpman;
+Jumpman;
+2;
+jogos;
+|
+Qual o sobrenome do Mario?;
+Bros;
+Plumber;
+Mario;
+Mario;
+2;
+jogos;
+|
+Em Dragon Ball Super, qual o nome da assistente do Champa?;
+Valeria;
+Whisa;
+Vados;
+Vados;
+3;
+animes;
+|
+Qual das alternativas não é uma franquia de jogos de corridas;
+Top Gear;
+Need for Speed;
+Uncharted;
+Uncharted;
+1;
+jogos;
+|
+Em Dragon Ball Super, quem foi o vencedor do Torneio do Poder?;
+Goku;
+Freeza;
+Androide 17;
+Androide 17;
+1;
+animes;
+|
+Qual foi o primeiro episódio de Star Wars lançado?;
+Episódio 1;
+Episódio 3;
+Episódio 4;
+Episódio 4;
+2;
+outros;
+|
+Qual desses super-heróis completou 80 anos em 2018?;
+Batman;
+Shazam;
+Superman;
+Superman;
+3;
+hqs;
+|
+No anime Psycho-Pass, o que é medido pelos policiais nos criminosos?;
+Psicopatia;
+Periculosidade;
+Coeficiente Criminal;
+Coeficiente Criminal;
+3;
+animes;
+|
+Qual o poder de luta do Kakaroto ?;
+Menos de 8 mil;
+Exatamente 8 mil;
+Mais de 8 mil;
+Mais de 8 mil;
+1;
+animes;
+|
+Quantas tropas de lanternas existem?;
+8;
+10;
+9;
+9;
+2;
+hqs;
+|
+Quantos pokemons tinham na 1º geração?;
+101;
+250;
+151;
+151;
+1;
+animes;
+|
+Em Turma da Monica, qual o nome completo do personagem Piteco?;
+Australopitecos Souza;
+Homo Piteco Sapiens;
+Pithecanthropus Erectus da Silva;
+Pithecanthropus Erectus da Silva;
+3;
+hqs;
+|
+Quantos jogos do Final Fantasy existem?;
+15;
+23;
+Mais de 30;
+Mais de 30;
+2;
+jogos;
+|
+Qual animal de estimação a Mulher Maravilha possui?;
+Macaco;
+Rinoceronte;
+Canguru;
+Canguru;
+3;
+hqs;
+|
+Em Hunter x Hunter, qual nome do Rei das Formigas Chimera ?;
+Netero;
+Shaiapouf;
+Meruem;
+Meruem;
+2;
+animes;
+|
+No anime Dragon Ball, quantas vezes o Kuririn morreu?;
+8;
+5;
+3;
+3;
+1;
+animes;
+|
+Qual desses personagens de Dragon Ball nunca morreu?;
+Goten;
+Chichi;
+Mister Satan;
+Mister Satan;
+2;
+animes;
+|
+Quantos Hulks existem ?;
+5;
+12;
+15;
+15;
+3;
+hqs;
+|
+Qual nome da arma empunhada por Bill Raio Beta,abençoado pelo propio Odin?;
+Jarnbjorn;
+Machado Sangrento;
+Rompe-Tormentas;
+Rompe-Tormentas;
+3;
+hqs;
+|
+No ep 21 de Dragon Ball Z quantos saibaimans surgem?;
+7;
+5;
+6;
+6;
+3;
+animes;
+|
+Qual o nome da Capitã Marvel?;
+Peggy Carter;
+Maria Hill;
+Carol Danvers;
+Carol Danvers;
+3;
+hqs;
+|
+Quais personagens da Marvel faziam parte da primeira X-Force?;
+Wolverine, Fantomex, Psylocke, Arcanjo, E.V.A., Dominó, Deathlok;
+Apache, Dominó, Arcanjo, Míssil, Cable, Wolverine, Deathlok;
+Cable, Míssil, Boom-Boom, Apache, Shatterstar, Feral e Dominó;
+Cable, Míssil, Boom-Boom, Apache, Shatterstar, Feral e Dominó;
+3;
+hqs;
+|
+Qual desses materiais é possivel envenenar os Daxamitas?;
+Kryptonita;
+Aço;
+Chumbo;
+Chumbo;
+2;
+hqs;
+|
+Qual o nome do primeiro Lanterna Vermelho?;
+Dex-Starr;
+Abin Surr;
+Atrócitus;
+Atrócitus;
+3;
+hqs;
+|
+Nos Novos 52 , quem é o Victor Stone?;
+Mutano;
+O Pensador;
+Cyborg;
+Cyborg;
+2;
+hqs;
+|
+Qual nome do personagem que declarou que era seu destino destruir Asgard através da combinação da sua Espada Crepúsculo e a Chama Eterna?;
+Hela;
+Freyja;
+Surtur;
+Surtur;
+2;
+hqs;
+|
+Quais são os integrantes da Ordem Negra?;
+Fauce do Ébano, Estrela Negra, Magus, Galactus, Supergigante;
+Próxima Meia-Noite, Corvus Glaive, Thanos, Jörmungand, Fauce do Ébano;
+Corvus Glaive, Fauce de Ébano, Próxima Meia-Noite, Estrela Negra, Supergigante;
+Corvus Glaive, Fauce de Ébano, Próxima Meia-Noite, Estrela Negra, Supergigante;
+3;
+hqs;
+|
+Fenris um dos filhos de loki é?;
+Uma serpente;
+Um urso;
+Um lobo;
+Um lobo;
+2;
+hqs;
+|
+A primeira equipe dos Novos Mutantes era composta por:;
+Míssil, Karma, Miragem, Magma e Magia;
+Magma, Magia, Warlock,Cifra e Shatterstar;
+Míssil, Karma, Miragem, Lupina e Mancha Solar;
+Míssil, Karma, Miragem, Lupina e Mancha Solar;
+3;
+hqs;
+|
+Qual é o nome do Asa Noturna?;
+Tim Drake;
+Jason Todd;
+Dick Grayson;
+Dick Grayson;
+1;
+hqs;
+|
+Qual o nome da X-23?;
+Jean Grey;
+Kitty Pryd;
+Laura Kinney;
+Laura Kinney;
+1;
+hqs;
+|
+Qual dos vilões pertencce a DC?;
+Conde Nefária;
+Mandarim;
+Antimonitor;
+Antimonitor;
+3;
+hqs;
+|
+Em Nanatsu no Taizai qual personagem não faz parte dos Sete Pecados Capitais?;
+Escanor;
+Gowther;
+Estarossa;
+Estarossa;
+3;
+animes;
+|
+Em Nanatsu no Taizai, qual desses não é irmão do Meliodas?;
+Zeldris;
+Estarossa;
+Fraudrin;
+Fraudrin;
+1;
+animes;
+|
+Em Darling in the FranXX, qual o codigo do Hiro?;
+002;
+015;
+016;
+016;
+2;
+animes;
+|
+Qual o nome do avô do Mamoru Endou?;
+Endou Yoshino;
+Endou Haizaki;
+Endou Daisuke;
+Endou Daisuke;
+1;
+animes;
+|
+Qual jogo não foi produzido pela Valve?;
+Left 4 Dead;
+Alien Swarm;
+XCOM;
+XCOM;
+1;
+jogos;
+|
+Qual a quantidade de munição por pente da glock-18 no CS:GO?;
+18;
+12;
+20;
+20;
+1;
+jogos;
+|
+Qual o nome da Vespa original?;
+Peggy Carter;
+Evangeline Lilly;
+Janet van Dyne;
+Janet van Dyne;
+3;
+hqs;
+|
+Qual o vilão do Far Cry 4?;
+Joseph Seed;
+Vaas Montenegro;
+Pagan Min;
+Pagan Min;
+1;
+jogos;
+|
+"Qual o significado da vida, do universo e tudo mais"?;
+11;
+87;
+42;
+42;
+2;
+outros;
+|
+Nos quadrinhos da Marvel, qual personagem cria o inimigo Ultron?;
+Tony Stark;
+Hank Pym;
+Bruce Banner;
+Hank Pym;
+2;
+hqs;
+|
+Qual a identidade do personagem Rosarch, dos quadrinhos Watchmen?;
+Adrian Veidt;
+Charles Szasz;
+Walter Kovacs;
+Walter Kovacs;
+1;
+hqs;
+|
+No evento da DC, Crise dos Infinitos Mundos, dois personagens marcam a série com sua morte. Quem são?;
+Supergirl e Flash;
+Flash e Louis Lane;
+Ciborgue e Kid Flash;
+Supergirl e Flash;
+2;
+hqs;
+|
+Qual foi o primeiro time de superheróis criado?;
+Liga da Justiça;
+Quarteto Fantástico;
+Sociedade da Justiça da América;
+Sociedade da Justiça da América;
+2;
+hqs;
+|
+Qual desses heróis não participou da formação inicial dos Vingadores nos quadrinhos?;
+Vespa;
+Hulk;
+Capitão América;
+Capitão América;
+1;
+hqs;
+|
+Qual o nome do criador do personagem Spawn?;
+Jamie Foxx;
+Todd McFly;
+Todd McFarlane;
+Todd McFarlane;
+2;
+hqs;
+|
+Qual o verdadeiro nome do personagem do Hellboy?;
+Trevor Bruttenholm;
+Abe Sapian;
+Anung Un Rama;
+Anung Un Rama;
+2;
+hqs;
+|
+Na série de quadrinhos, "Saga", qual o nome da filha do casal protagonista?;
+Alana;
+Izabel;
+Hazel;
+Hazel;
+2;
+hqs;
+|
+O personagem Lucas Lee, da série de quadrinhos Scott Pilgrim, ganha seus poderes por ser:;
+Agnóstico;
+Baixista;
+Vegano;
+Vegano;
+2;
+hqs;
+|
+Em Scott Pilgrim, a banda Sex Bob-omb é uma referência a um inimigo de qual série de jogos?;
+Sonic;
+Final Fantasy;
+Super Mario;
+Super Mario;
+1;
+hqs;
+|
+Nos novos 52 na DC, qual dos personagens não tem sua continuidade alterada?;
+Superman;
+Exterminador;
+Batman;
+Batman;
+2;
+hqs;
+|
+Qual era o emprego da Mulher-Maravilha quando perdeu seus poderes nos anos 70?;
+Motorista de Taxi;
+Embaixadora na ONU;
+Dona de botique;
+Dona de botique;
+3;
+hqs;
+|
+Qual desses personagens substitui o Batman depois dele ter suas costas quebradas por Bane?;
+Asa Noturna;
+Superboy;
+Azrael;
+Azrael;
+3;
+hqs;
+|
+Quantas esmeraldas do Caos existem na franquia Sonic?;
+3;
+9;
+7;
+7;
+2;
+jogos;
+|
+Qual desses Pokémons não é do tipo dragão?;
+Dragonite;
+Alolan Exeggutor;
+Charizard;
+Charizard;
+1;
+jogos;
+|
+Qual era o produto que a Nintendo vendia quando ela começou?;
+Máquinas de Pachinko;
+Jogos de Mesa;
+Playing Cards;
+Playing Cards;
+2;
+jogos;
+|
+Em que ano aconteceu a primeira E3?;
+1998;
+2003;
+1995;
+1995;
+3;
+jogos;
+|
+Qual cor o Kirby era originalmente?;
+Roxo;
+Laranla;
+Cinza;
+Cinza;
+2;
+jogos;
+|
+Em Portal 2, a personagem Glados é transformada em que comida?;
+Laranja;
+Maçã;
+Batata;
+Batata;
+2;
+jogos;
+|
+Qual desses jogos foi o precursor de Portal?;
+Half-Life;
+Team Fortress;
+Narbacular Drop;
+Narbacular Drop;
+3;
+jogos;
+|
+Quanto tempo Link tem para impedir o fim do mundo no jogo Majora's Mask?;
+5 dias;
+1 semana;
+3 dias;
+3 dias;
+1;
+jogos;
+|
+Qual banda fez a trilha sonora do Quake original?;
+The Smashing Punpkins;
+Depeche Mode;
+Nine Inch Nails;
+Nine Inch Nails;
+3;
+jogos;
+|
+Qual a mensagem exibida em Castlevania II quando a noite chega?;
+WHAT A HORRIBLE NIGHT TO BE CURSED;
+WHAT A HORRIBLE NIGHT TO BE BLIND;
+WHAT A HORRIBLE NIGHT TO HAVE A CURSE;
+WHAT A HORRIBLE NIGHT TO HAVE A CURSE;
+2;
+jogos;
+|
+A personagem Cammy apareceu originalmente em qual Street Figher?;
+Street Fighter II: The World Warrior;
+Street Fighter II: Hyper Warrior;
+Street Fighter II: The New Challengers;
+Street Fighter II: The New Challengers;
+3;
+jogos;
+|
+Sephiroth mata qual personagem em Final Fantasy 7?;
+Tifa;
+Cloud;
+Aeris;
+Aeris;
+1;
+jogos;
+|
+Como o Superman revela a identidade do Batman no Injustice?;
+Pela televisão;
+Pelo Planeta Diário;
+Por uma rede social;
+Por uma rede social;
+3;
+hqs;
+|
+Quais são os pokémons iniciais em Pokémon Colosseum?;
+Treecko e Torchic;
+Pikachu e Eevee;
+Umbreon e Espeon;
+Umbreon e Espeon;
+2;
+jogos;
+|
+Qual a namorada do Meat Boy?;
+Meat Girl;
+Broccoli Girl;
+Bandage Girl;
+Bandage Girl;
+2;
+jogos;
+|
+Qual o recorde mundial da speed run de Super Mario 64?;
+Dois minutos e 35 segundos;
+Oito minutos e 38 segundos;
+Seis minutos e 44 segundos;
+Seis minutos e 44 segundos;
+3;
+jogos;
+|
+Qual país o jogador trabalha no jogo Papers, Please?;
+Antegria;
+Kolechia;
+Arstotzka;
+Arstotzka;
+3;
+jogos;
+|
+Qual músico quase foi chamado para compor a música de Sonic 3?;
+David Bowie;
+Mick Jagger;
+Michael Jackson;
+Michael Jackson;
+2;
+jogos;
+|
+Qual desses pokemons não aprendem surf?;
+Magikarp;
+Snorlax;
+Rhydon;
+Magikarp;
+2;
+jogos;
+|
+No inicio de Dragon Ball Z, qual desses lutadores é o que tinha menor poder de luta?;
+Kuririn;
+Tenshinham;
+Yancha;
+Kuririn;
+1;
+animes;
+|
+Qual o anime com mais episódios já produzido?;
+Crayon Shin-chan;
+Sazae-san;
+One Piece;
+Sazae-san;
+3;
+animes;
+|
+No anime "Your name", qual cidade a protagonista Mitsuha, sonha em morar?;
+Tóquio;
+Hiroshima;
+Sendai;
+Tóquio;
+2;
+animes;
+|
+Qual desses animes não passou na manchete?;
+Fly, o Pequeno Guerreiro;
+Yu Yu Hakusho;
+Super Campeões;
+Fly, o Pequeno Guerreiro;
+2;
+animes;
+|
+Em Harry Potter, qual a maior fobia de Rony Weasley?;
+Aranhas;
+Dementadores;
+Filch, o Zelador;
+Aranhas;
+1;
+outros;
+|
+Qual o patrono do Professor Snape em Harry Potter?;
+Corça;
+Cavalo;
+Unicórnio;
+Corça;
+3;
+outros;
+|
+Qual o ano de lançamento do filme "De volta para o Futuro"?;
+1985;
+1987;
+1989;
+1985;
+2;
+outros;
+|
+Qual a arma do Eric do desenho "Caverna do Dragão"?;
+Escudo;
+Tacape Mágico;
+Arco;
+Escudo;
+2;
+outros;
+|
+O que sopra a cabeça preta do Tiamat, o Dragão de cinco cabeças do desenho "Caverna do Dragão"?;
+Ácido;
+Veneno;
+Fogo;
+Ácido;
+3;
+outros;
+|
+Qual o nome do Unicórnio do Caverna do Dragão?;
+Uni;
+Pé de Pano;
+Tônia;
+Uni;
+1;
+outros;
+|
+Quem foi o escritor das lendas de "Cthulhu Mythos"?;
+H.P. Lovecraft;
+J. R. R. Tolkien;
+Peter Jackson;
+H.P. Lovecraft;
+1;
+outros;
+|
+Qual a jóia guardada pelo Dr. Strange?;
+Tempo;
+Alma;
+Espaço;
+Tempo;
+1;
+hqs;
+|
+Qual a cor do uniforme do Mário?;
+Vermelho;
+Verde;
+Bordô;
+Vermelho;
+1;
+jogos;
+|
+Quem é Zelda?;
+Uma princesa;
+Um herói;
+Um cavalo;
+Uma princesa;
+1;
+jogos;
+|
+No livro "A invenção de Hugo Cabret", qual é a invenção deixada pelo pai da personagem?;
+Um autômato;
+Um cinematógrafo;
+Um relógio;
+Um autômato;
+2;
+outros;
+|
+Qual personagem da Turma da Mônica representa a filha de Maurício de Souza?;
+Mônica;
+Magali;
+Marina;
+Marina;
+1;
+hqs;
+|
+No anime "One Punch-Man", qual dessas alternativas representa preocupação de Saitama?;
+Não perder a promoção do mercadinho;
+Acabar com o mal do mundo;
+Dormir;
+Não perder a promoção do mercadinho;
+2;
+animes;
+|
+"Vampiro: a Máscara" é um:;
+Livro/Romance;
+Seriado;
+RPG de Mesa;
+RPG de Mesa;
+2;
+outros;
+|
+Achou que não ia ter pergunta sobre Choque de Cultura? Achou errado otário! Qual é o meio de transporte alternativo do Renan?;
+Kombi 94´;
+Strinter Azul e Vermelha;
+Towner Azul Bebê;
+Towner Azul Bebê;
+2;
+outros;
+|
+No anime FullMetall Alchemist qual alquimista federal é conhecido como "Alquimista das Chamas"?;
+Edward Elric;
+Major Armstrong;
+Roy Mustang;
+Roy Mustang;
+1;
+animes;
+|
+Qual o Cavaleiro do Zodíaco é considerado o mais próximo de Deus?;
+Aioria de Leão;
+Seya de Pegasus;
+Shaka de Virgem;
+Shaka de Virgem;
+2;
+animes;
+|
+Como Kratos se torna o Deus da Guerra?;
+Matando Zeus;
+Matando a Hydra;
+Matando Ares;
+Matando Ares;
+1;
+jogos;
+|
+O que Kratos é de Zeus?;
+Irmão;
+Sobrinho;
+Filho;
+Filho;
+1;
+jogos;
+|
+Qual o ataque de Milo de Escorpião?;
+Meteoro de Agulhas;
+Agulha Vermelha;
+Agulha Escarlate;
+Agulha Escarlate;
+2;
+animes;
+|
+Qual o longa metragem de Herói da DC rendeu mais dinheiro até hoje?;
+Batman Cavaleiro das Trevas Resurge;
+Liga da Justiça;
+Mulher Maravilha;
+Batman Cavaleiro das Trevas Resurge;
+2;
+hqs;
+|
+O que é a Dev-U?;
+Uma equipe de jogos;
+Uma equipe de nerds;
+Uma equipe de programação;
+Uma equipe de jogos;
+1;
+jogos;
+|
+Qual é a famosa frase dos guardas de toda Skyrim?;
+"I used to be an adventurer like you, then i took an arrow in the knee";
+"Let me guess, someone stole your sweetroll?";
+"Someone better buy me a drink";
+"I used to be an adventurer like you, then i took an arrow in the knee";
+1;
+jogos;
+|
+Qual é o nome do primeiro amor de Wolverine?;
+Jean Grey;
+Rose O'Hara;
+Mariko Yashida;
+Rose O'Hara;
+3;
+hqs;
+|
+Quem é responsável pelo programa do soro do super soldado no universo Ultimate da Marvel?;
+Hank Pym;
+Tony Stark;
+Nick Fury;
+Hank Pym;
+2;
+hqs;
+|
+Quem é trazido de volta a vida em Surpreendentes X-men?;
+Colossus;
+Jean Grey;
+Professor X;
+Colossus;
+2;
+hqs;
+|
+Quem consegue fazer frente ao Hulk na saga Hulk Contra o Mundo?;
+Sentinela;
+Thor;
+Homem de Ferro;
+Sentinela;
+3;
+hqs;
+|
+Quem é o traidor infiltrado no grupo do Capitão América na saga Guerra Civil?;
+Luke Cage;
+Justiceiro;
+Tigresa;
+Tigresa;
+2;
+hqs;
+|
+Quem é o vilão que mata o  Superman?;
+Apocalipse;
+Darkseid;
+Lex Luthor;
+Apocalipse;
+1;
+hqs;
+|
+O verdadeiro nome de All Might é:;
+Toshinori Yagi;
+Nana Shimura;
+Shota Aizawa;
+Toshinori Yagi;
+2;
+animes;
+|
+Quantas estrelas existem em Super Mario 64?;
+110;
+90;
+120;
+120;
+1;
+jogos;
+|
+Qual o console mais vendido de todos os tempos?;
+Playstation 2;
+Nintendo Wii;
+Super Nintendo/Famicon;
+Playstation 2;
+2;
+jogos;
+|
