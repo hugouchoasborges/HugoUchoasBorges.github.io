@@ -230,15 +230,23 @@
     
 - id: "7"
   title: "Death-Corp"
-  icon_picture: "submarine.png"
-  icon_hover_picture: "submarine.png"
+  icon_picture: "death_corp/icon.png"
+  icon_hover_picture: "death_corp/icon.png"
   description: |
-    Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
-    On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+    A morte morreu! Infelizmente ela pegou um caso de catapora anêmica e faleceu... 
+    Dias, meses de luto e ninguém morre na terra. Porém nem tudo está perdido: a super-morte já decidiu quem será a nova morte da Terra! VOCÊ!
+
+    Jogo criado para a GameJam Dev-U Jam #1
 
   modal:
     pictures:
-      - src: "submarine.png"
+      - src: "death_corp/img_01.png"
+        title: ""
+      - src: "death_corp/img_02.png"
+        title: ""
+      - src: "death_corp/img_03.png"
+        title: ""
+      - src: "death_corp/img_04.png"
         title: ""
     points:                                 # Add as many points as necessary
       - title: "Game Engine"
@@ -247,18 +255,28 @@
             href: "#"
       - title: "Data"
         links:
-          - title: "Novembro, 2020"
+          - title: "Abril, 2019"
             href: "#"
+      - title: "GameJam"
+        links:
+          - title: "Dev-U Jam - Itch.io"
+            href: https://itch.io/jam/devujam-1
       - title: "Repositório"
         links:
           - title: "Github"
-            href: https://github.com/hugouchoasborges/ggj2021
+            href: https://github.com/hugouchoasborges/death_corp
+      - title: "Créditos"
+        links:
+          - title: "Vitória Arantes"
+            href: https://toiaarantes.itch.io/
+          - title: "Guilherme Bortoletto"
+            href: https://voidmainvoid.itch.io/
       - title: "Plataformas e Links"
         links:
-          - title: "Android"
-            href: https://play.google.com/store/apps/details?id=com.hugouchoasborges.emburradinho&hl=pt
           - title: "WebGL"
-            href: https://hugouchoasborges.itch.io/emburradinho
+            href: https://hugouchoasborges.itch.io/death-corp
+          - title: "Windows"
+            href: https://hugouchoasborges.itch.io/death-corp
     
 - id: "8"
   title: "The Chosen Two"
