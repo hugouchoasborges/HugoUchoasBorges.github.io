@@ -329,35 +329,32 @@
     
 - id: "9"
   title: "Resta-Um"
-  icon_picture: "submarine.png"
-  icon_hover_picture: "submarine.png"
+  icon_picture: "resta_um/icon.png"
+  icon_hover_picture: "resta_um/icon.png"
   description: |
-    Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons.
-    On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+    Este foi meu primeiro jogo criado na faculdade para a matéria de Lógica de Programação. É um jogo simples em C utilizando apenas o console e BIPs.
 
   modal:
     pictures:
-      - src: "submarine.png"
+      - src: "resta_um/img_01.png"
+        title: ""
+      - src: "resta_um/img_02.png"
+        title: ""
+      - src: "resta_um/img_03.png"
         title: ""
     points:                                 # Add as many points as necessary
-      - title: "Game Engine"
+      - title: "Linguagem"
         links:
-          - title: "Unity"
+          - title: "C"
             href: "#"
       - title: "Data"
         links:
-          - title: "Novembro, 2020"
+          - title: "Junho, 2013"
             href: "#"
-      - title: "Repositório"
-        links:
-          - title: "Github"
-            href: https://github.com/hugouchoasborges/ggj2021
       - title: "Plataformas e Links"
         links:
-          - title: "Android"
-            href: https://play.google.com/store/apps/details?id=com.hugouchoasborges.emburradinho&hl=pt
-          - title: "WebGL"
-            href: https://hugouchoasborges.itch.io/emburradinho
+          - title: "Windows + Código Fonte"
+            href: "/img/portfolio/resta_um/resta_um.zip"
 
 - id: "10"
   title: "EDX - CS50G Games"
