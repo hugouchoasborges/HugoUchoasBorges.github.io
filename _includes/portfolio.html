@@ -17,7 +17,11 @@
                 </div>
               </div>
               <img class="img-fluid on" src="{{site.github.url}}/img/portfolio/{{project.icon_picture}}" alt="">
-              <img class="img-fluid off" src="{{site.github.url}}/img/portfolio/{{project.icon_hover_picture}}" alt="">
+              {% if project.icon_hover_picture %}
+                <img class="img-fluid off" src="{{site.github.url}}/img/portfolio/{{project.icon_hover_picture}}" alt="">
+              {% else %}
+              <img class="img-fluid off" src="{{site.github.url}}/img/portfolio/{{project.icon_picture}}" alt="">
+              {% endif %}
             </a>
           </div>
           {% endfor %}
