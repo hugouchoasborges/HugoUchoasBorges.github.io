@@ -1,43 +1,26 @@
-<meta charset="utf-8">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{site.description}}">
+    <meta name="author" content="">
+    
+    <title>{{page.title}} | {{site.title}}</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="{{site.github.url}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom fonts for this template -->
+    <!-- <link href="{{site.github.url}}/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="{{site.github.url}}/vendor/font-awesome/css/all.css" rel="stylesheet" type="text/css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/1b27b927ce.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    
+    <!-- Custom styles for this template -->
+    <!--<link href="{{site.github.url}}/css/freelancer.min.css" rel="stylesheet">-->
+    <link href="{{site.github.url}}/css/main.css" rel="stylesheet">
 
-{% include seo.html %}
-
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta name="google-site-verification" content="hLCop0Wz1hK1a0b8g-bCpLB95UHHru4qG8KPIDtmGbg" />
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
-<!--[if lte IE 9]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
-
-{% if site.head_scripts %}
-  {% for script in site.head_scripts %}
-    {% if script contains "://" %}
-      {% capture script_path %}{{ script }}{% endcapture %}
-    {% else %}
-      {% capture script_path %}{{ script | relative_url }}{% endcapture %}
-    {% endif %}
-    <script src="{{ script_path }}"></script>
-  {% endfor %}
-{% endif %}
+    <!-- W3 Schools CSS Slider -->
+    <link href="{{site.github.url}}/assets/css/w3.css" rel="stylesheet">
+</head>

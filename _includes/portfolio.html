@@ -1,0 +1,30 @@
+
+    <!--  Portfolio Grid Section -->
+   <section id="portfolio"> 
+      <div class="container">
+        <h2 class="text-center">Portfólio</h2>
+        <hr class="star-primary">
+        <div class="row">
+          {% for project in site.data.projects%}
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal-{{project.id}}" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fab fa-search-plus fa-3x"></i>
+                </div>
+                <div class="caption-content title">
+                  <p>{{project.title}}</p>
+                </div>
+              </div>
+              <img class="img-fluid on" src="{{site.github.url}}/img/portfolio/{{project.icon_picture}}" alt="">
+              {% if project.icon_hover_picture %}
+                <img class="img-fluid off" src="{{site.github.url}}/img/portfolio/{{project.icon_hover_picture}}" alt="">
+              {% else %}
+              <img class="img-fluid off" src="{{site.github.url}}/img/portfolio/{{project.icon_picture}}" alt="">
+              {% endif %}
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>

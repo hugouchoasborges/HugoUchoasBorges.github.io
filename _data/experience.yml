@@ -1,0 +1,49 @@
+  title: Experiência
+  subtitle: Minha jornada até agora.
+  bottom_message: Faça parte <br>da minha Jornada!
+
+  list:
+  - class: ""
+    icon: "logo_hydra.jpg"
+    icon-alt: "Hydra Systems"
+    title: "2020 - Atual"
+    sub_title: "Desenvolvedor Unity"
+    description: | 
+          Programador de jogos em C# na engine Unity; Experiência com infraestruturas de sistemas em uma plataforma com diversos jogos;
+          Unity Addressables; Custom Editors; Shaderlab; Spine; ActionScript 3; Controle de versão GIT.
+
+  - class: "timeline-inverted"
+    icon: "logo_kmee.jpg"
+    icon-alt: "KMEE Informática"
+    title: "2017-2020"
+    sub_title: "Desenvolvedor de Software"
+    description: | 
+          Específicação, desenvolvimento e integração de sistemas por meio do ERP Odoo; Mentoria e suporte a clientes e outros desenvolvedores;
+          Projetos em equipes por metodologias ágeis e contribuições na comunidade de desenvolvedores Odoo;
+          Treinamentos em Python; Controle de versão GIT; Testes automatizados e entrega contínua.
+
+  - class: ""
+    icon: "logo_devu.jpg"
+    icon-alt: "Dev-U"
+    title: "2018-2019"
+    sub_title: "Diretor de Programação Unity"
+    description: | 
+          Desenvolvedor de jogos Unity; Gestor de projetos, responsável pela capacitação dos programadores da equipe, pelos respositórios e organização de treinamentos e reuniões.
+
+  - class: "timeline-inverted"
+    icon: "logo_unifei.jpg"
+    icon-alt: "UNIFEI"
+    title: "2013-2018"
+    sub_title: "Engenharia de Computação - UNIFEI"
+    description: | 
+          Eletrônica básica, analógica e digital; Programação orientada a objetos com foco em mapeamento UML e padrões de projetos; 
+          Matemática discreta com aplicação prática em Grafos; Sistemas de controle analógicos, digitais e processamento digital de sinais.
+
+  - class: ""
+    icon: "logo_cps.jpg"
+    icon-alt: "image-alt"
+    title: "2010-2011"
+    sub_title: "Técnico em Informática"
+    description: | 
+          Manutenção de hardware; inglês técnico; Pacote Office; Programação básica em C, Object Pascal e Java;
+          Manutenção de bancos de dados MySQL e elaboração de websites em HTML/CSS/Javascript.

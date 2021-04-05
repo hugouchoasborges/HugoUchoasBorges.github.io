@@ -1,0 +1,65 @@
+ <!-- Portfolio Modals -->
+ <style>
+.img-fluid img-centered slide  {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
+  {% for project in site.data.projects %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{project.id}}" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>{{project.title}}</h2>
+                  <hr class="star-primary">
+                  {% if project.modal.pictures %}
+                    <div class="w3-content w3-display-container">
+                      {% for picture in project.modal.pictures %}
+                      <img class="img-fluid img-centered slide item-{{project.id}}" src="{{site.github.url}}/img/portfolio/{{picture.src}}" alt="{{site.github.url}}/img/portfolio/{{picture.alt}}">
+                      {% endfor %}
+                      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1, '{{ project.id }}')">&#10094;</div>
+                        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1, '{{ project.id }}')">&#10095;</div>
+                        {% for picture in project.modal.pictures %}
+                        <span class="w3-badge demo-{{project.id}} w3-border w3-transparent w3-hover-white" onclick="currentDiv('{{ if forloop.index }}', '{{ project.id }}')"></span>
+                        {% endfor %}
+                        <!-- <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1, '{{ project.id }}')"></span>
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2, '{{ project.id }}')"></span>
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3, '{{ project.id }}')"></span> -->
+                      </div>
+                      <!-- <button class="w3-button w3-display-left" onclick="plusDivs(-1, '{{ project.id }}')">&#10094;</button>
+                      <button class="w3-button w3-display-right" onclick="plusDivs(+1, '{{ project.id }}')">&#10095;</button> -->
+                    </div>
+                  {% endif %}
+                  <p>{{project.description}}</p>
+                  <ul class="list-inline item-details">
+                    {% for point in project.modal.points %}
+                    <li>{{point.title}}:
+                      <strong>
+                        {% for link in point.links %}
+                            <a {% if link.href != '#' %} target="_blank" {% endif %} href="{{link.href}} ">{{link.title}}</a>
+                            {% if point.links.last != link %},{% endif %}
+                        {% endfor %}
+                      </strong>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+    {% endfor %}
