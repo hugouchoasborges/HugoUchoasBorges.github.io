@@ -96,6 +96,7 @@
             href: https://hugouchoasborges.itch.io/ggj2021
     
 - id: "3"
+  hide: true
   title: "Candy Cash"
   icon_picture: "candycash/icon.png"
   # icon_hover_picture: "candycash/icon.png"
