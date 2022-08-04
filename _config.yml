@@ -18,12 +18,13 @@ about:
   p1: Desenvolvedor independente de jogos em Unity. Engenheiro de Computação pela Universidade Federal de Itajubá - UNIFEI.
   p2: Experiência em programação C# para Unity, controle de versões GIT, especificação, gerenciamento e execução de atividades em equipes.
   button_text: Ver Formação Completa
-  button_link: /resume
+  button_link: https://drive.google.com/file/d/1GyYI7-5n1FPH3CC-N3dKrg-PFabDUaR9/view
 
 # Header Settings
 header:
   set_resume: true                   # Display resume? 
   set_blog: false                    # Display blog? 
+  social: Redes e Contatos
   header_bg: background.jpg          # Header background Image
   header_bg_title: <a href='http://www.freepik.com'>Background image Designed by Freepik</a>
 
@@ -56,8 +57,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Campeche
-  - line: Florianópolis - SC
+  - line: Praia Comprida
+  - line: São José - SC
 
 # Credits content
 credits: 'Freelancer é um tema Bootstrap gratuito para utilização e de código aberto criado por <a href="http://startbootstrap.com">Start Bootstrap</a>.'

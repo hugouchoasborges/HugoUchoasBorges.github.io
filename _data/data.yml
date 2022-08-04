@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    address: Campeche - Florianópolis / SC
+    address: Praia Comprida - São José / SC
     email: hugouchoas@outlook.com
     phone: 35 99857 2866
     website: hugouchoasborges.github.io #do not add http://
@@ -70,7 +70,7 @@ experiences:
       time: Abr 2020 - Atual
       company: Hydra Systems, Florianópolis/SC
       details: |
-        Programador de jogos em C# na game engine Unity. Tenho experiência com infraestruturas de sistemas para lidar com 
+        Programador Unity Pleno. Tenho experiência com infraestruturas de sistemas para lidar com 
         múltiplos jogos. Comunicação com servidores para controle de sessão de usuário e sincronização multiplayer.
           - Unity Addressables;
           - Unity Custom Editors;
