@@ -12,7 +12,7 @@ baseurl:                            # the subpath of your site, e.g. /blog
 url:                             # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  hugouchoasborges
-skills: Desenvolvedor Unity - Programador
+skills: Desenvolvedor Unity
 
 about:
   p1: Desenvolvedor independente de jogos em Unity. Engenheiro de Computação pela Universidade Federal de Itajubá - UNIFEI.
