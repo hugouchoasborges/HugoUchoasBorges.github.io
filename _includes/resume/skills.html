@@ -1,4 +1,10 @@
-{% assign skills = site.data.data.skills %}
+{% if site.data.static.default_lang == "english" %}
+  {% assign data = site.data.data %}
+{% else %}
+  {% assign data = site.data.data_english %}
+{% endif %}
+
+{% assign skills = data.skills %}
 {% if skills.show %}
 <section class="skills-section section">
 

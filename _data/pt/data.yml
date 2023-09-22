@@ -1,0 +1,171 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Hugo Uchôas Borges
+    tagline: Desenvolvedor Unity
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    address: Praia Comprida - São José / SC
+    email: hugouchoas@outlook.com
+    phone: 35 99857 2866
+    website: hugouchoasborges.github.io #do not add http://
+    linkedin: hugo-uchoas-borges
+    github: hugouchoasborges
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Português
+        level: Nativo
+
+      - idiom: Inglês
+        level: Avançado
+
+    interests:
+      - item: Desenvolvimento de jogos
+        link: 
+
+      - item: Gerenciamento de projetos
+        link:
+
+resume-pdf:
+    title: Imprimir Currículo
+    link: https://drive.google.com/file/d/1GyYI7-5n1FPH3CC-N3dKrg-PFabDUaR9/view?usp=sharing
+
+career-profile:
+    title: PERFIL PROFISSIONAL
+    summary: |
+      Desenvolvedor de jogos em Unity pela empresa <a href="https://www.hydrasystems.com">Hydra Systems</a>. 
+      Engenheiro de Computação pela Universidade Federal de Itajubá - UNIFEI.
+
+      Gosto de conhecer ao menos o básico de cada área, portanto estou sempre desenvolvendo algum projeto pessoal e aprendendo algo novo. 
+      A maioria de meus projetos são simples e foram realizados em GameJams.
+education:
+    - degree: Engenharia de Computação
+      university: Universidade Federal de Itajubá - UNIFEI
+      time: 2013 - 2018
+      details: |
+        Eletrônica básica, analógica e digital; Programação orientada a objetos com foco em mapeamento UML e padrões de projetos; 
+        Matemática discreta com aplicação prática em Grafos; Sistemas de controle analógicos, digitais e processamento digital de sinais.
+    - degree: Técnico em Informática
+      university: ETEC - Centro Paula Souza
+      time: Fev 2010 - Jul 2011
+      details: |
+        Manutenção de hardware; inglês técnico; Pacote Office; Programação básica em C, Object Pascal e Java;
+        Manutenção de bancos de dados MySQL e elaboração de websites em HTML/CSS/Javascript.
+experiences:
+    - role: Desenvolvedor Unity
+      time: Abr 2020 - Atual
+      company: Hydra Systems, Florianópolis/SC
+      details: |
+        Programador Unity Pleno. Tenho experiência com infraestruturas de sistemas para lidar com 
+        múltiplos jogos. Comunicação com servidores para controle de sessão de usuário e sincronização multiplayer.
+          - Unity Addressables;
+          - Unity Custom Editors;
+          - VFX Graph;
+          - Shaderlab;
+          - Integração com Spine e TexturePacker;
+          - ActionScript 3;
+          - Versionamento GIT.
+
+    - role: Desenvolvedor de Software
+      time: 2017 - 2020
+      company: KMEE Informática - Itajubá/MG
+      details: |
+        Especificação, desenvolvimento e integração de sistemas por meio do ERP Odoo. 
+        Tenho experiência com mentoria e suporte a clientes e outros desenvolvedores, 
+        projetos em equipes por metodologias ágeis e contribuições na comunidade de desenvolvedores Python e Odoo.
+        - Treinamentos Python; 
+        - Implementação e comunicação com APIs bancárias;
+        - Versionamento GIT;
+        - Testes automatizados;
+        - Entrega contínua.
+
+    - role: Diretor de Programação Unity
+      time: 2018 - 2019
+      company: Dev-u UNIFEI - Itajubá/MG
+      details: |
+        Projeto especial de desenvolvimento de jogos da Universidade Federal de Itajubá. Fui responsável pela gerência de projetos e pessoas; 
+        capacitação dos programadores e repositórios da equipe; Organização e aplicação de treinamentos, reuniões e eventos.
+        - Unity;
+        - Construct 2;
+        - Unreal Engine;
+        - Versionamento GIT;
+        - GameJams.
+
+        [*Página do projeto*](https://unifei.edu.br/extensao/extensao-tecnologica-e-empresarial/projetos-especiais/itajuba/equipe-dev-u/)
+
+projects:
+    show: false
+    title: Projetos
+    intro: >
+      Aqui estão listados alguns de meus projetos. A lista completa pode ser vista <a href="games">neste link</a>.
+    assignments:
+      - title: Emburradinho
+        link: "#Emburradinho"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: TODO
+        link: "#TODO"
+        tagline: "TODO"
+
+publications:
+    show: false
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    show: false
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

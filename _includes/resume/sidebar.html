@@ -1,4 +1,10 @@
-{% assign sidebar = site.data.data.sidebar %}
+{% if site.data.static.default_lang == "english" %}
+  {% assign data = site.data.data %}
+{% else %}
+  {% assign data = site.data.data_english %}
+{% endif %}
+
+{% assign sidebar = data.sidebar %}
 <div class="sidebar-wrapper">
 
   <div class="profile-container">

@@ -23,7 +23,7 @@ about:
 # Header Settings
 header:
   set_resume: true                   # Display resume? 
-  set_blog: false                    # Display blog? 
+  set_blog: true                    # Display blog? 
   social: Redes e Contatos
   header_bg: background.jpg          # Header background Image
   header_bg_title: <a href='http://www.freepik.com'>Background image Designed by Freepik</a>
@@ -68,6 +68,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-polyglot
 sass:
     sass_dir: _sass
     style: compressed
@@ -88,3 +89,13 @@ sass:
 # RESUME SECTION
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: 3C5560 #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar  
+
+# POLYGLOT
+languages: ["en", "pt"]
+default_lang: "en"
+#exclude_from_localization: ["assets", "javascript", "images", "css", "public"]
+exclude_from_localization: ["assets", "css", "img", "js", "vendor"]
+parallel_localization: false
+
+sass:
+  sourcemap: never
