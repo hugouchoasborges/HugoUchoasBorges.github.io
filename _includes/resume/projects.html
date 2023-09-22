@@ -1,9 +1,4 @@
-{% if site.data.static.default_lang == "english" %}
-  {% assign projects = site.data.projects_english %}
-{% else %}
-  {% assign projects = site.data.projects %}
-{% endif %}
-
+{% assign projects = site.data.data.projects %}
 {% if projects.show %}
 <section class="section projects-section">
 

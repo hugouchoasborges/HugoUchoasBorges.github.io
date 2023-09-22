@@ -1,10 +1,4 @@
-{% if site.data.static.default_lang == "english" %}
-  {% assign data = site.data.data %}
-{% else %}
-  {% assign data = site.data.data_english %}
-{% endif %}
-
-{% assign experiences = data.experiences %}
+{% assign experiences = site.data.data.experiences %}
 {% if experiences %}
 <section class="section experiences-section">
   <h2 class="section-title">
