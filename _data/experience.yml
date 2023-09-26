@@ -1,49 +1,54 @@
-  title: Experiência
-  subtitle: Minha jornada até agora.
-  bottom_message: Faça parte <br>da minha Jornada!
+  title: Timeline
+  subtitle: My journey until now
+  bottom_message: Be a part <br>of my Journey!
 
   list:
   - class: ""
     icon: "logo_hydra.jpg"
     icon-alt: "Hydra Systems"
-    title: "2020 - Atual"
-    sub_title: "Desenvolvedor Unity"
+    title: "2020 - Current"
+    sub_title: "Unity Game Developer Senior - Hydra Games"
+    progression:
+      - title: Sr - 2023->Current
+      - title: Full - 2022->2023
+      - title: Jr - 2020->2022
     description: | 
-          Programador Unity Pleno; Experiência com infraestruturas de sistemas em uma plataforma com diversos jogos;
-          Unity Addressables; Custom Editors; Shaderlab; Spine; ActionScript 3; Controle de versão GIT.
+          Experience with Infra unity development; Worked in a lobby system with several games loaded on demand;
+          Unity Addressables; Custom Editors; Shaderlab; Spine; ActionScript 3; GIT version control.
 
   - class: "timeline-inverted"
     icon: "logo_kmee.jpg"
-    icon-alt: "KMEE Informática"
+    icon-alt: "KMEE"
     title: "2017-2020"
-    sub_title: "Desenvolvedor de Software"
+    sub_title: "Software Developer & Analyst - KMEE"
     description: | 
-          Específicação, desenvolvimento e integração de sistemas por meio do ERP Odoo; Mentoria e suporte a clientes e outros desenvolvedores;
-          Projetos em equipes por metodologias ágeis e contribuições na comunidade de desenvolvedores Odoo;
-          Treinamentos em Python; Controle de versão GIT; Testes automatizados e entrega contínua.
+          Specification, development and system integration with Odoo ERP; Support to clients and mentorship to other developers;
+          Team projects using agile methodologies and contributions to the Odoo community;
+          Python tutoring; GIT and Unit testing.
 
   - class: ""
     icon: "logo_devu.jpg"
     icon-alt: "Dev-U"
     title: "2018-2019"
-    sub_title: "Diretor de Programação Unity"
+    sub_title: "Game Programming Director - Dev-U"
     description: | 
-          Desenvolvedor de jogos Unity; Gestor de projetos, responsável pela capacitação dos programadores da equipe, pelos respositórios e organização de treinamentos e reuniões.
+          Dev-U was a game development project during my graduation. 
+          I was responsible for managing projects, maintaining our repositories, hosting meetings and tutoring our development team.
 
   - class: "timeline-inverted"
     icon: "logo_unifei.jpg"
     icon-alt: "UNIFEI"
     title: "2013-2018"
-    sub_title: "Engenharia de Computação - UNIFEI"
+    sub_title: "Computer Engineering - UNIFEI"
     description: | 
-          Eletrônica básica, analógica e digital; Programação orientada a objetos com foco em mapeamento UML e padrões de projetos; 
-          Matemática discreta com aplicação prática em Grafos; Sistemas de controle analógicos, digitais e processamento digital de sinais.
+        Analog and digital eletronics; OOP focused on UML architecture and design patterns;
+        Discrete Math applied to graphs and programming; Analog/digital control systems and DSP.
 
   - class: ""
     icon: "logo_cps.jpg"
     icon-alt: "image-alt"
     title: "2010-2011"
-    sub_title: "Técnico em Informática"
+    sub_title: "IT Technical Certification"
     description: | 
-          Manutenção de hardware; inglês técnico; Pacote Office; Programação básica em C, Object Pascal e Java;
-          Manutenção de bancos de dados MySQL e elaboração de websites em HTML/CSS/Javascript.
+        Hardware maintenance; Technical english; Office package; Basic C, Pascal and Java programming;
+        MySQL databases and web-development using HTML/CSS/Javascript.

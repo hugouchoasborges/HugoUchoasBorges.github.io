@@ -12,28 +12,28 @@ baseurl:                              # the subpath of your site, e.g. /blog
 url:                              # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  hugouchoasborges
-skills: Desenvolvedor Unity
+skills: Unity Game Developer
 
 about:
-  p1: Desenvolvedor independente de jogos em Unity. Engenheiro de Computação pela Universidade Federal de Itajubá - UNIFEI.
-  p2: Experiência em programação C# para Unity, controle de versões GIT, especificação, gerenciamento e execução de atividades em equipes.
-  button_text: Ver Formação Completa
-  button_link: https://drive.google.com/file/d/1GyYI7-5n1FPH3CC-N3dKrg-PFabDUaR9/view
+  p1: Unity Game Developer. Computer Engineer at Federal University of Itajubá - UNIFEI.
+  p2: Working experience in Unity, GIT version control and all that good stuff.
+  button_text: See Full Resume
+  button_link: /resume
 
 # Header Settings
 header:
   set_resume: true                   # Display resume? 
-  set_blog: false                    # Display blog? 
-  social: Redes e Contatos
+  set_blog: true                    # Display blog? 
+  social: Contact and Networks
   header_bg: background.jpg          # Header background Image
   header_bg_title: <a href='http://www.freepik.com'>Background image Designed by Freepik</a>
 
 # Footer settings
 footer:                               #Footer Headers
   copyright: hugouchoasborges
-  location: Localização
-  social: Redes e Contatos
-  credits: SOBRE O SITE
+  location: Location
+  social: Contact and Networks
+  credits: ABOUT THIS WEBSITE
   
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # For more icons look at http://fontawesome.io/icons/#brand
@@ -57,11 +57,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Praia Comprida
-  - line: São José - SC
+  #- line: Queluz - SP
+  - line: Brazil
 
 # Credits content
-credits: 'Freelancer é um tema Bootstrap gratuito para utilização e de código aberto criado por <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Freelancer is an open source, free to use Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>'
 
 # Build settings
 markdown: kramdown

@@ -3,9 +3,9 @@
   icon_picture: "emburradinho/icon.png"
   # icon_hover_picture: "emburradinho/icon_hover.gif"
   description: |
-    Emburradinho é um jogo simples e divertido com uma arte única.
-    Suba o máximo que conseguir, coletando comidinhas e desbloqueando conquistas.
-  
+    Emburradinho is a simple, fun game with an unique art style.
+    Climb as high as you can, collect coins, food and unlock achievements.
+    |
   modal:
     pictures:
       - src: "emburradinho/icon.png"
@@ -29,11 +29,11 @@
         links:
           - title: "Unity"
             href: "#"
-      - title: "Data"
+      - title: "Date"
         links:
-          - title: "Novembro, 2020"
+          - title: "November, 2020"
             href: "#"
-      - title: "Plataformas e Links"
+      - title: "Platforms and Links"
         links:
           - title: "Android"
             href: https://play.google.com/store/apps/details?id=com.hugouchoasborges.emburradinho&hl=pt
@@ -45,7 +45,7 @@
   icon_picture: "crowlie/icon.png"
   # icon_hover_picture: "crowlie/icon_hover.gif"
   description: |
-    Crowlie é uma experiência simples criada em 1 semana para a GlobalGameJam 2021
+    Crowlie is a simple experience created during the one week GlobalGameJam 2021
   
   modal:
     pictures:
@@ -64,11 +64,11 @@
         links:
           - title: "Unity"
             href: "#"
-      - title: "Data"
+      - title: "Date"
         links:
-          - title: "Janeiro, 2021"
+          - title: "January, 2021"
             href: "#"
-      - title: "Repositório"
+      - title: "Repository"
         links:
           - title: "Github"
             href: https://github.com/hugouchoasborges/ggj2021
@@ -76,7 +76,7 @@
         links:
           - title: "Crowlie"
             href: https://globalgamejam.org/2021/games/crowlie-5
-      - title: "Créditos"
+      - title: "Credits"
         links:
           - title: "Janielle Fratta"
             href: https://globalgamejam.org/users/janielle-fratta
@@ -90,7 +90,7 @@
             href: https://domdevcontact.wixsite.com/danilodomingues
           - title: "João Mantovani"
             href: https://www.instagram.com/jvmantovani/
-      - title: "Plataformas e Links"
+      - title: "Platforms and Links"
         links:
           - title: "WebGL"
             href: https://hugouchoasborges.itch.io/ggj2021
@@ -101,7 +101,7 @@
   icon_picture: "candycash/icon.png"
   # icon_hover_picture: "candycash/icon.png"
   description: |
-    Jogo feito para a GameJam Dev-Ween2 do grupo Dev-U realizado na primeira semana de Novembro/2020.
+    Jogo feito para a GameJam Dev-Ween2 do grupo Dev-U realizado na primeira semana de November/2020.
     Utilizei este jogo para testar como seria hospedar um ranking em uma planilha do Google Drive. As únicas operações de banco realizadas são leitura e escrita.
 
   modal:
@@ -115,15 +115,15 @@
         links:
           - title: "Unity"
             href: "#"
-      - title: "Data"
+      - title: "Date"
         links:
-          - title: "Novembro, 2020"
+          - title: "November, 2020"
             href: "#"
-      - title: "Repositório"
+      - title: "Repository"
         links:
           - title: "Github"
             href: https://github.com/hugouchoasborges/candycash
-      - title: "Plataformas e Links"
+      - title: "Platforms and Links"
         links:
           - title: "WebGL"
             href: https://hugouchoasborges.itch.io/candycash
@@ -135,7 +135,7 @@
   icon_picture: "slidding_puzzle/icon.png"
   # icon_hover_picture: "slidding_puzzle/icon.png"
   description: |
-    Jogo desenvolvido em uma entrevista de emprego Unity.
+    Project created during an Unity interview.
 
   modal:
     pictures:
@@ -146,15 +146,15 @@
         links:
           - title: "Unity"
             href: "#"
-      - title: "Data"
+      - title: "Date"
         links:
-          - title: "Março, 2020"
+          - title: "March, 2020"
             href: "#"
-      - title: "Repositório"
+      - title: "Repository"
         links:
           - title: "Github"
             href: https://github.com/hugouchoasborges/sliding_puzzle
-      - title: "Plataformas e Links"
+      - title: "Platforms and Links"
         links:
           - title: "WebGL"
             href: https://hugouchoasborges.itch.io/sliding-puzzle
@@ -165,7 +165,7 @@
   icon_picture: "ssshooter/icon.png"
   # icon_hover_picture: "ssshooter/icon.png"
   description: |
-    Meu primeiro jogo criado em Unity. Foi durante a GameJam Code 'n Play pela Universidade Federal de Itajubá.
+    My first Unity game. I created it during my first GameJam, Code 'n Play, at Federal University of Itajubá (UNIFEI).
   
   modal:
     pictures:
@@ -178,11 +178,11 @@
         links:
           - title: "Unity"
             href: "#"
-      - title: "Data"
+      - title: "Date"
         links:
-          - title: "Outubro, 2017"
+          - title: "October, 2017"
             href: "#"
-      - title: "Repositório"
+      - title: "Repository"
         links:
           - title: "Github"
             href: https://github.com/hugouchoasborges/Space-Spelling-Shooter
@@ -190,7 +190,7 @@
         links:
           - title: "Code 'n Play"
             href: https://www.facebook.com/events/510541149338454/
-      - title: "Plataformas e Links"
+      - title: "Platforms and Links"
         links:
           - title: "WebGL"
             href: https://hugouchoasborges.itch.io/ssshooter
@@ -202,8 +202,8 @@
   icon_picture: "quiz_ena/icon.png"
   # icon_hover_picture: "quiz_ena/icon.png"
   description: |
-    Jogo criado para o evento 'VI Encontro das Novas Artes', sediado pela Universidade Federal de Itajubá em 20 de Maio de 2017. 
-    Foi meu primeiro jogo criado na Engine Construct 2 pela Dev-U.
+    Game created for the event "6th meeting of New Arts", hosted at UNIFEI on 20th/May/2017.
+    This was my first game created using Construct 2 engine in the Dev-U game development project.
 
   modal:
     pictures:
@@ -220,19 +220,19 @@
         links:
           - title: "Construct 2"
             href: "#"
-      - title: "Data"
+      - title: "Date"
         links:
-          - title: "Maio, 2017"
+          - title: "May, 2017"
             href: "#"
       - title: "Evento"
         links:
           - title: "VI ENA - Unifei"
             href: https://www.facebook.com/events/1669530893064103/
-      - title: "Plataformas e Links"
+      - title: "Platforms and Links"
         links:
-          - title: "Jogar Agora"
+          - title: "Play Now"
             href: /img/portfolio/quiz_ena/QuizENA
-          - title: "Código Fonte"
+          - title: "Source Code"
             href: /img/portfolio/quiz_ena/QuizENA.zip
     
 - id: "7"
@@ -240,10 +240,10 @@
   icon_picture: "death_corp/icon.png"
   # icon_hover_picture: "death_corp/icon.png"
   description: |
-    A morte morreu! Infelizmente ela pegou um caso de catapora anêmica e faleceu... 
-    Dias, meses de luto e ninguém morre na terra. Porém nem tudo está perdido: a super-morte já decidiu quem será a nova morte da Terra! VOCÊ!
+    Death has died!!! Sadly she has gotten Chickenpox and bit the dust...
+    After days.. months.. nobody has died on Earth anymore. But no worries, we've elected a new death! YOU!!
 
-    Jogo criado para a GameJam Dev-U Jam #1
+    Game created for the 1st DEV-U GameJam
 
   modal:
     pictures:
@@ -260,25 +260,25 @@
         links:
           - title: "Unity"
             href: "#"
-      - title: "Data"
+      - title: "Date"
         links:
-          - title: "Abril, 2019"
+          - title: "April, 2019"
             href: "#"
       - title: "GameJam"
         links:
           - title: "Dev-U Jam - Itch.io"
             href: https://itch.io/jam/devujam-1
-      - title: "Repositório"
+      - title: "Repository"
         links:
           - title: "Github"
             href: https://github.com/hugouchoasborges/death_corp
-      - title: "Créditos"
+      - title: "Credits"
         links:
           - title: "Vitória Arantes"
             href: https://toiaarantes.itch.io/
           - title: "Guilherme Bortoletto"
             href: https://voidmainvoid.itch.io/
-      - title: "Plataformas e Links"
+      - title: "Platforms and Links"
         links:
           - title: "WebGL"
             href: https://hugouchoasborges.itch.io/death-corp
@@ -290,7 +290,7 @@
   icon_picture: "the_chosen_two/icon.png"
   # icon_hover_picture: "the_chosen_two/icon.png"
   description: |
-    Jogo multiplayer local para dois jogadores. Projeto criado em 2 dias durante a GameJam Coding Pizza & Glory 2019 do Inatel, em Santa Rita do Sapucaí.
+    2 Player local multiplayer game. Project created from scratch in 2 days during the "Coding Pizza & Glory 2019" Gamejam at INATEL - Santa Rita do Sapucaí.
 
   modal:
     pictures:
@@ -305,19 +305,19 @@
         links:
           - title: "Unity"
             href: "#"
-      - title: "Data"
+      - title: "Date"
         links:
-          - title: "Março, 2019"
+          - title: "March, 2019"
             href: "#"
       - title: "GameJam"
         links:
           - title: "Coding Pizza & Glory"
             href: https://www.inatel.br/hackathongames/
-      - title: "Repositório"
+      - title: "Repository"
         links:
           - title: "Github"
             href: https://github.com/hugouchoasborges/the-chosen-two
-      - title: "Créditos"
+      - title: "Credits"
         links:
           - title: "Patrícia Costa"
             href: https://github.com/nerPatricia
@@ -327,7 +327,7 @@
             href: https://github.com/the-bmb
           - title: "Nixon Silva"
             href: https://github.com/NixonMSilva
-      - title: "Plataformas e Links"
+      - title: "Platforms and Links"
         links:
           - title: "WebGL"
             href: https://hugouchoasborges.itch.io/the-chosen-two
@@ -339,7 +339,8 @@
   icon_picture: "resta_um/icon.png"
   # icon_hover_picture: "resta_um/icon.png"
   description: |
-    Este foi meu primeiro jogo criado na faculdade para a matéria de Lógica de Programação. É um jogo simples em C utilizando apenas o console e BIPs.
+    This is my first game ever, created during college at the Programming Logic course.
+    This is a very simple 'C game' using only the console and BIPs.
 
   modal:
     pictures:
@@ -350,27 +351,27 @@
       - src: "resta_um/img_03.png"
         title: ""
     points:                                 # Add as many points as necessary
-      - title: "Linguagem"
+      - title: "Language"
         links:
           - title: "C"
             href: "#"
-      - title: "Data"
+      - title: "Date"
         links:
-          - title: "Junho, 2013"
+          - title: "June, 2013"
             href: "#"
-      - title: "Plataformas e Links"
+      - title: "Platforms and Links"
         links:
-          - title: "Windows + Código Fonte"
+          - title: "Windows + Source Code"
             href: /img/portfolio/resta_um/resta_um.zip
 
 - id: "10"
-  title: "CS50G Exercícios"
+  title: "CS50G Lessons"
   icon_picture: "cs50g/icon.png"
   # icon_hover_picture: "cs50g/icon.png"
   description: |
-    Jogos criados como exercícios do curso CS50G do EDX. 
-    São jogos relativamente simples porém com mecânicas bem desenvolvidas e otimizadas. 
-    A linguagem utilizada foi LUA pela GameEngine LOVE2D.
+    A serie of games created as homework for the CS50G course at EDX.
+    All games are simple, but with well designed mechanics.
+    Language: LUA with the LOVE2D GameEngine.
 
   modal:
     pictures:
@@ -411,15 +412,15 @@
         links:
           - title: "Love2D (lua)"
             href: "#"
-      - title: "Data"
+      - title: "Date"
         links:
-          - title: "Outubro, 2020"
+          - title: "October, 2020"
             href: "#"
-      - title: "Curso"
+      - title: "Course"
         links:
           - title: "CS50G - EDX"
             href: https://learning.edx.org/course/course-v1:HarvardX+CS50G+Games/home
-      - title: "Repositório"
+      - title: "Repository"
         links:
           - title: "Github"
             href: https://github.com/hugouchoasborges/edx-cs50-game-development

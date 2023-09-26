@@ -9,23 +9,23 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" data-target="#portfolio" href="{{site.github.url}}/#portfolio">Portfólio</a>
+          <a class="nav-link js-scroll-trigger" data-target="#portfolio" href="{{site.github.url}}/#portfolio">{{site.data.data.navbar.portfolio}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" data-target="#about" href="{{site.github.url}}/#about">Sobre</a>
+          <a class="nav-link js-scroll-trigger" data-target="#about" href="{{site.github.url}}/#about">{{site.data.data.navbar.about}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" data-target="#experience" href="{{site.github.url}}/#experience">Experiência</a>
+          <a class="nav-link js-scroll-trigger" data-target="#experience" href="{{site.github.url}}/#experience">{{site.data.data.navbar.experience}}</a>
         </li>
         {% if site.header.set_blog %}
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" data-target="/blog" href="{{site.github.url}}/blog">Blog</a>
+          <a class="nav-link js-scroll-trigger" data-target="/blog" href="{{site.github.url}}/blog">{{site.data.data.navbar.blog}}</a>
         </li>
         {% endif %}
         {% if site.header.set_resume %}
         <li class="nav-item">
-          <!--<a class="nav-link js-scroll-trigger" data-target="/resume" href="{{site.github.url}}/resume">Currículo</a>-->
-          <a class="nav-link js-scroll-trigger" data-target="_blank" href="https://drive.google.com/file/d/1GyYI7-5n1FPH3CC-N3dKrg-PFabDUaR9/view">Currículo</a>
+          <a class="nav-link js-scroll-trigger" data-target="/resume" href="{{site.github.url}}/resume">{{site.data.data.navbar.resume}}</a>
+          <!--<a class="nav-link js-scroll-trigger" data-target="_blank" href={{site.data.data.resume-pdf.link}}>{{site.data.data.navbar.resume-download}}</a>-->
         </li>
         {% endif %}
       </ul>

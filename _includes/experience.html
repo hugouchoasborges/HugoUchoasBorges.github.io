@@ -21,6 +21,13 @@
                     <h4>{{exp.title}}</h4>
                     <h4 class="subheading">{{exp.sub_title}}</h4>
                   </div>
+                  {% if exp.progression %}
+                   <div class="timeline-body">
+                    {% for prog in exp.progression %}
+                        <p class="text-muted" style="opacity:0.6; font-weight:bold"><i>{{prog.title}}</i></p>
+                    {% endfor %}
+                  </div>
+                  {% endif %}
                   <div class="timeline-body">
                     <p class="text-muted">{{exp.description}}</p>
                   </div>

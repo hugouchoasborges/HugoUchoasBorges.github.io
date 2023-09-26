@@ -8,13 +8,13 @@ sidebar:
 
     # Profile information
     name: Hugo Uchôas Borges
-    tagline: Desenvolvedor Unity
+    tagline: Unity Game Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    address: Praia Comprida - São José / SC
+    address: Queluz/SP - Brazil
     email: hugouchoas@outlook.com
-    phone: 35 99857 2866
+    phone: +55 35 99857 2866
     website: hugouchoasborges.github.io #do not add http://
     linkedin: hugo-uchoas-borges
     github: hugouchoasborges
@@ -27,89 +27,94 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: Português
-        level: Nativo
+      - idiom: Portuguese
+        level: Native
 
-      - idiom: Inglês
-        level: Avançado
+      - idiom: English
+        level: Advanced (CEFR C1+/C2)
 
     interests:
-      - item: Desenvolvimento de jogos
+      - item: Game Development
         link: 
 
-      - item: Gerenciamento de projetos
-        link:
+navbar:
+    portfolio: Portfolio
+    about: About
+    experience: Experience
+    blog: Posts
+    resume: Resume
+    resume-download: Download Resume
 
 resume-pdf:
-    title: Imprimir Currículo
-    link: https://drive.google.com/file/d/1GyYI7-5n1FPH3CC-N3dKrg-PFabDUaR9/view?usp=sharing
+    title: PDF Download
+    link: https://drive.google.com/file/d/1osVB4yGje-WPZWuj-IAQdzYTL9drmH8T/view?usp=drive_link
+    #Portuguese link: https://drive.google.com/file/d/1GyYI7-5n1FPH3CC-N3dKrg-PFabDUaR9/view?usp=sharing
+    #English link: https://drive.google.com/file/d/1osVB4yGje-WPZWuj-IAQdzYTL9drmH8T/view?usp=drive_link
 
-career-profile:
-    title: PERFIL PROFISSIONAL
-    summary: |
-      Desenvolvedor de jogos em Unity pela empresa <a href="https://www.hydrasystems.com">Hydra Systems</a>. 
-      Engenheiro de Computação pela Universidade Federal de Itajubá - UNIFEI.
+#career-profile:
+#    title: Work Profile
+#    summary: |
+#      Unity game developer at <a href="https://www.hydragames.com.br/">Hydra Games</a>.
+#
+#      Computer Engineer at <a href="https://unifei.edu.br/">Federal University of Itajubá (UNIFEI)</a>
 
-      Gosto de conhecer ao menos o básico de cada área, portanto estou sempre desenvolvendo algum projeto pessoal e aprendendo algo novo. 
-      A maioria de meus projetos são simples e foram realizados em GameJams.
 education:
-    - degree: Engenharia de Computação
-      university: Universidade Federal de Itajubá - UNIFEI
+    - degree: Computer Engineering
+      university: Federal University of Itajubá - UNIFEI
       time: 2013 - 2018
       details: |
-        Eletrônica básica, analógica e digital; Programação orientada a objetos com foco em mapeamento UML e padrões de projetos; 
-        Matemática discreta com aplicação prática em Grafos; Sistemas de controle analógicos, digitais e processamento digital de sinais.
-    - degree: Técnico em Informática
+        Analog and digital eletronics; OOP focused on UML architecture and design patterns;
+        Discrete Math applied to graphs and programming; Analog/digital control systems and DSP.
+    - degree: IT Technical Certificate
       university: ETEC - Centro Paula Souza
-      time: Fev 2010 - Jul 2011
+      time: Feb 2010 - Jul 2011
       details: |
-        Manutenção de hardware; inglês técnico; Pacote Office; Programação básica em C, Object Pascal e Java;
-        Manutenção de bancos de dados MySQL e elaboração de websites em HTML/CSS/Javascript.
+        Hardware maintenance; Technical english; Office package; Basic C, Pascal and Java programming;
+        MySQL databases and web-development using HTML/CSS/Javascript.
 experiences:
-    - role: Desenvolvedor Unity
-      time: Abr 2020 - Atual
-      company: Hydra Systems, Florianópolis/SC
+    - role: Unity Game Developer
+      time: Apr 2020 - Current
+      company: Hydra Games, Florianópolis/SC - Brazil
       details: |
-        Programador Unity Pleno. Tenho experiência com infraestruturas de sistemas para lidar com 
-        múltiplos jogos. Comunicação com servidores para controle de sessão de usuário e sincronização multiplayer.
+        Senior game developer. Experienced with sistem infraestructures handling multiple games on demand.
+        Server communication, user session and multiplayer experience.
           - Unity Addressables;
           - Unity Custom Editors;
           - VFX Graph;
           - Shaderlab;
-          - Integração com Spine e TexturePacker;
-          - ActionScript 3;
-          - Versionamento GIT.
+          - Spine integration;
+          - TexturePacker integration;
+          - Version control systems.
 
-    - role: Desenvolvedor de Software
+    - role: Software Developer & Analyst
       time: 2017 - 2020
       company: KMEE Informática - Itajubá/MG
       details: |
-        Especificação, desenvolvimento e integração de sistemas por meio do ERP Odoo. 
-        Tenho experiência com mentoria e suporte a clientes e outros desenvolvedores, 
-        projetos em equipes por metodologias ágeis e contribuições na comunidade de desenvolvedores Python e Odoo.
-        - Treinamentos Python; 
-        - Implementação e comunicação com APIs bancárias;
-        - Versionamento GIT;
-        - Testes automatizados;
-        - Entrega contínua.
+        Specification, development and system integration with Odoo ERP.
+        Support to clients and mentorship to other developers.
+        Team projects using agile methodologies and contributions to the Odoo community.
+        - Python tutoring;
+        - Online banking ingration;
+        - Version control systems;
+        - Unit testing;
 
-    - role: Diretor de Programação Unity
+    - role: Gane Programming Director
       time: 2018 - 2019
       company: Dev-u UNIFEI - Itajubá/MG
       details: |
-        Projeto especial de desenvolvimento de jogos da Universidade Federal de Itajubá. Fui responsável pela gerência de projetos e pessoas; 
-        capacitação dos programadores e repositórios da equipe; Organização e aplicação de treinamentos, reuniões e eventos.
+        Dev-U was a game development project during my graduation. 
+        I was responsible for managing projects, maintaining our repositories, hosting meetings and tutoring our development team.
         - Unity;
         - Construct 2;
         - Unreal Engine;
-        - Versionamento GIT;
+        - Version control systems;
         - GameJams.
 
-        [*Página do projeto*](https://unifei.edu.br/extensao/extensao-tecnologica-e-empresarial/projetos-especiais/itajuba/equipe-dev-u/)
+        [*Project's Page*](https://dev-unifei.github.io/)
 
 projects:
     show: false
-    title: Projetos
+    title: Projects
     intro: >
       Aqui estão listados alguns de meus projetos. A lista completa pode ser vista <a href="games">neste link</a>.
     assignments:
