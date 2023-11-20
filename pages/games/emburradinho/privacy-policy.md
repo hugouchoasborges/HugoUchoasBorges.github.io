@@ -6,27 +6,33 @@ permalink: /games/emburradinho/privacy-policy
 
 # Privacy Policy for Emburradinho
 
-At Emburradinho, the privacy of our users, especially children, is extremely important to us. This Privacy Policy outlines the types of personal information that is received and collected by Emburradinho and how it is used.
+At Emburradinho, we prioritize the privacy and security of our users, especially children. This Privacy Policy outlines how our app accesses, collects, uses, and shares user data, including personal and sensitive information.
 
 ## Information Collection and Use
 
-Emburradinho does not collect or store any personally identifiable information from users, especially children under the age of 13. We do not require any personal information to play or enjoy the game.
+### Types of Data Collected
 
-## Log Data
+Emburradinho does not collect, access, or store any personally identifiable information or sensitive user data. We do not require any personal information to play or enjoy the game.
 
-Like many other websites and mobile applications, Emburradinho collects non-personally identifiable information that your device sends whenever you use our game. This data may include information such as the device type, operating system, and other technical information used for analytics purposes. This information is collected solely for the purpose of improving the game experience and does not identify individual users.
+### Data Handling Procedures
 
-## Cookies
+Any data generated or accessed during gameplay, such as user progress or game preferences, is stored locally on the user's device and is not transmitted or shared externally.
 
-Emburradinho does not use cookies or any similar tracking technologies.
+### Data Sharing
 
-## Third-Party Links
+We do not share any personal or sensitive user data with third parties. Emburradinho operates independently and does not engage in data-sharing practices with external entities.
 
-Emburradinho may contain links to external sites or services that are not operated by us. Please be aware that we have no control over the content and practices of these sites and cannot accept responsibility or liability for their respective privacy policies.
+## Secure Data Handling
+
+Our app implements robust security measures to ensure the protection of user data. Any information generated or accessed during gameplay is stored locally and is not transmitted over networks.
+
+## Data Retention and Deletion Policy
+
+Emburradinho does not retain any user data as we do not collect or store personally identifiable information or sensitive user data. Any data generated or accessed during gameplay is stored locally on the user's device and can be deleted by uninstalling the app.
 
 ## Children's Privacy
 
-Protecting the privacy of children is especially important to us. We do not knowingly collect any personally identifiable information from children under the age of 13. If a parent or guardian believes that their child has provided us with personal information, we encourage them to contact us immediately, and we will do our best to promptly remove such information from our records.
+Protecting the privacy of children is of utmost importance to us. We do not knowingly collect any personally identifiable information from children under the age of 13. If a parent or guardian believes that their child has provided us with personal information, we encourage them to contact us immediately, and we will do our best to promptly remove such information from our records.
 
 ## Changes to This Privacy Policy
 
