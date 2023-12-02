@@ -65,6 +65,11 @@ education:
       details: |
         Analog and digital eletronics; OOP focused on UML architecture and design patterns;
         Discrete Math applied to graphs and programming; Analog/digital control systems and DSP.
+    - degree: CS50G - Game Development
+      university: EDX - HarvardX
+      time: 2023
+      details: |
+        LUA Scripting; Love2D game engine; Finite-State-Machines
     - degree: IT Technical Certificate
       university: ETEC - Centro Paula Souza
       time: Feb 2010 - Jul 2011
