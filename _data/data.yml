@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Hugo Uchôas Borges
-    tagline: Unity Game Developer
+    tagline: Game Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -34,7 +34,7 @@ sidebar:
         level: Advanced (CEFR C1+/C2)
 
     interests:
-      - item: Game Development
+      - item: Game Development; Active Learning; Shaders; Unity; Unreal Engine
         link: 
 
 navbar:
@@ -72,11 +72,28 @@ education:
         Hardware maintenance; Technical english; Office package; Basic C, Pascal and Java programming;
         MySQL databases and web-development using HTML/CSS/Javascript.
 experiences:
-    - role: Unity Game Developer
-      time: Apr 2020 - Current
+    - role: Senior Game Developer
+      time: Sep 2023 - Current
       company: Hydra Games, Florianópolis/SC - Brazil
       details: |
-        Senior game developer. Experienced with sistem infraestructures handling multiple games on demand.
+        I primarily work as a game developer focusing on Unity infrastructure in our Tablet and Cabinet projects. I also function
+        as an infrastructure programmer in our proprietary V12 Engine. Our Unity platform can handle dynamic loading of multiple
+        games over several days. I have experience in gathering and implementing new system requirements, communicating
+        with servers for user session control and synchronization, optimizing software for mobile devices, distributing local and
+        remote bundles, and tooling development. Additionally, I engage in direct communication with clients and managers for
+        requirement gathering, documentation, and creating testing routines.
+         - C#
+         - C++
+         - LUA
+         - Powershell
+         - Javascrvipt
+         - OpenGL
+
+    - role: Jr/Full Unity Game Developer
+      time: Apr 2020 - 2023
+      company: Hydra Games, Florianópolis/SC - Brazil
+      details: |
+        Unity game developer. Experienced with sistem infraestructures handling multiple games on demand.
         Server communication, user session and multiplayer experience.
           - Unity Addressables;
           - Unity Custom Editors;
@@ -98,7 +115,7 @@ experiences:
         - Version control systems;
         - Unit testing;
 
-    - role: Gane Programming Director
+    - role: Game Programming Director
       time: 2018 - 2019
       company: Dev-u UNIFEI - Itajubá/MG
       details: |
