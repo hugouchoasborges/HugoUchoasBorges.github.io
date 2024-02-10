@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Emburradinho - Privacy policy
-permalink: /games/emburradinho/privacy-policy
+permalink: /games/emburradinho/privacy
 ---
 
 # Privacy Policy for Emburradinho
