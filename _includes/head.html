@@ -1,7 +1,22 @@
 <head>
     
     {% if site.redirect %}
-    <meta http-equiv="refresh" content="0; url={{site.redirect}}">
+    <!-- <meta http-equiv="refresh" content="0; url={{site.redirect}}"> -->
+    <script>
+        window.onload = function() {
+            // Define an array of paths where you want to redirect
+            var pathsToRedirect = ["/", "/resume/", "/blog/"]; // Add your desired paths here
+
+            // Get the current URL's pathname
+            var currentPath = window.location.pathname;
+
+            // Check if the current path matches any of the paths in the array
+            if (pathsToRedirect.includes(currentPath)) {
+                // Redirect if the current path matches
+                window.location.href = "{{site.redirect}}";
+            }
+        };
+    </script>
     {% endif %}
 
     <meta charset="utf-8">
