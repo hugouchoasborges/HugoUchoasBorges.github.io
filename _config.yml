@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-redirect: https://hugouchoasborges.notion.site
+#redirect: https://hugouchoasborges.notion.site
 
 title: Hugo Borges
 email: hugouchoas@outlook.com
