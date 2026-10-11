@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "portfolio-github-fallback",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-11",
+  "account_id": "9fc27c2c57140ad4b774b8ae5ea35e35",
+  "workers_dev": false,
+  "routes": [{ "pattern": "pub.hugoborges.dev.br/p/portfolio*", "zone_name": "hugoborges.dev.br" }],
+  "vars": { "FALLBACK_ORIGIN": "https://hugouchoasborges.github.io", "TIMEOUT_MS": "4500" },
+  "observability": { "enabled": true, "traces": { "enabled": true } }
+}

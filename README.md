@@ -1,100 +1,29 @@
-Freelancer Jekyll theme  [![Build Status](https://travis-ci.org/digvijayad/freelancer-theme.svg?branch=master)](https://travis-ci.org/digvijayad/freelancer-theme)
-=========================
+# Portfólio — cópia da Hugo's Library
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/) and the timeline from [Agency bootstrap theme](http://startbootstrap.com/template-overviews/agency/) 
-## Features: 
- - Header Image
- - Timeline from Agency Theme [Agency Theme Timeline](https://blackrockdigital.github.io/startbootstrap-agency/#about)
- - Blog
- 
-## Preview 
-![screenshot](https://user-images.githubusercontent.com/19765483/31866545-c52cf0ae-b746-11e7-9f00-6b0c3fa21ca3.PNG)
+O portfólio continua sendo editado na Library. `site/` contém a última cópia estática para https://hugouchoasborges.github.io, incluindo imagens, GIFs, vídeo, estudos de caso e PDFs do currículo. O workflow publica apenas `site/` ao atualizar `master`.
 
-## Live Demo
-View this jekyll theme in action [here](https://digvijayad.github.io/freelancer-theme)
+## Atualizar a cópia
 
-## How to use
- #### Site Variables
- - Set your site content such as name, title, footer in `_config.yml`
- 
- #### Header Image
- - Place your Header Background image in `/img/` and change the value of `header-bg` in `_config.yml` to the image name.
- - If you don't want a header image then add a `#` before the `header-bg` to comment it out.
- 
-
- #### BLog
- - To enable or disable the blog, set the `set-blog` in `_config.yml` to `true` or `false`.
- - Create posts to display on your blog.
-  
- 
- #### Portfolio
- - Place your portfolio images in `/img/portfolio/`
- - Enter your portfolio data in `_data/projects.yml`. Just edit the values from the default file.
-```txt
-- id: "1"
-  title: "Your Project 1 Title"
-  modal_picture: "cabin.png"         #The full project image inside the model
-  icon_picture: "game.png"         #image shown in the grid.
-  description: "Project 1 Description."
-  points: 
-    - title: "Client:"
-      links:
-        - title: "The Client"
-          href: https://startbootstrap.com/template-overviews/freelancer/
-    - title: "Date:"
-      links:
-        - title: "December 2016"
-          href: "#"
-    - title: "Service:"
-      links:
-        - title: "Web Development"
-          href: https://startbootstrap.com
+```powershell
+npm ci
+npm run snapshot
+npm test
+git add site fallback/manifest.mjs
+git commit -m "Update portfolio snapshot"
+git push origin master
+npm run deploy:fallback
 ```
 
- - Keep in mind you can add as my links as you want, say For example you want to add another link to a service. Then just add another `title` and `href` under the first one.
- - Or you want to add another point, such as Languages used for Project. Then just add another `title` and `links` .
-```txt 
- points: 
-    - title: "Client:"
-      links:
-        - title: "The Client"
-          href: https://startbootstrap.com/template-overviews/freelancer/
-    - title: "Date:"
-      links:
-        - title: "December 2016"
-          href: "#"
-    - title: "Service:"
-      links:
-        - title: "Web Development"
-          href: https://startbootstrap.com
-        - title: "Service 2"
-          href: https://example.com
-    - title: "Languages Used"
-      links:
-        - title: "C#"
-        - href: linkToC#.com
-        
-```
+A exportação consulta apenas a publicação pública, sem tokens. Se algum arquivo não puder ser exportado, ela falha antes de substituir a última cópia boa. A atualização é manual neste primeiro estágio; editar na Library sozinho não atualiza o Pages.
 
+## Fallback
 
- #### Experience/Timeline
- - Place your images in `/img/timeline`
- - Enter your timeline data in `_data/experience.yml`. Just edit the values from the default file.
- - The following example is for the item on right side of timeline. For left side leave the class blank. i.e `class: ""`.
-```txt
+`fallback/worker.mjs` intercepta apenas `pub.hugoborges.dev.br/p/portfolio*` e verifica o limite exato `/p/portfolio`. GET/HEAD usam a Library primeiro; falhas de conexão, timeout de 4,5 s ou respostas 5xx usam o GitHub Pages, preservando a URL. 404, autenticação e operações de escrita não são desviadas. Mídias da cópia usam um caminho próprio e não dependem da Library. Cookies e credenciais não são encaminhados ao GitHub.
 
-- class: "timeline-inverted"
-  icon: "2.jpg"
-  icon-alt: "alternate text for image"
-  title: "Your Experience Title"
-  sub_title: "Some cachy title"
-  description: | 
-        Description for your Experience. 
-        Can expand to multiple lines <br>
-        Write whatever you want.<br>
-        If you want a paragragh then remove the `br` tags .<br>
+Não modifica as rotas dos outros serviços. Para reverter o fallback, remova somente a rota `pub.hugoborges.dev.br/p/portfolio*` associada a `portfolio-github-fallback`; a rota anterior do domínio continua cadastrada.
 
-```
+## Verificação local
 
----------
-For more details, read the [documentation](http://jekyllrb.com/)
+`npm run preview` serve a cópia em http://127.0.0.1:8117. `npm test` testa disponibilidade, timeout, 404, isolamento de rotas e proteção de credenciais. `scripts/qa.mjs` verifica mídias e navegação com acesso à Library bloqueado.
+
+O Jekyll anterior permanece no histórico Git, antes do commit de migração. Backup adicional: `C:/Users/hugou/.codex/outputs/portfolio-snapshot-2026-10-11/github-pages-before.zip`.
