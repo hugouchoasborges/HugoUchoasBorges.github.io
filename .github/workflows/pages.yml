@@ -3,24 +3,57 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
+  schedule:
+    - cron: '17,47 * * * *'
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npm test
+      - name: Refresh from live Library
+        if: github.event_name != 'push'
+        id: snapshot
+        continue-on-error: true
+        run: npm run snapshot
+      - name: Keep snapshot history
+        if: steps.snapshot.outputs.changed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site fallback/manifest.mjs
+          git commit -m 'Update portfolio snapshot from Library'
+          git push origin HEAD:master
       - uses: actions/configure-pages@v5
+        if: github.event_name == 'push' || steps.snapshot.outputs.changed == 'true'
       - uses: actions/upload-pages-artifact@v4
+        if: github.event_name == 'push' || steps.snapshot.outputs.changed == 'true'
         with:
           path: site
       - uses: actions/deploy-pages@v4
+        if: github.event_name == 'push' || steps.snapshot.outputs.changed == 'true'
         id: deployment
+      - name: No changes
+        if: steps.snapshot.outputs.changed == 'false'
+        run: echo 'Library unchanged; keeping the current Pages deployment.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep last good copy on export failure
+        if: steps.snapshot.outcome == 'failure'
+        run: |
+          echo 'Library unavailable or export incomplete. The last good snapshot remains published.' >> "$GITHUB_STEP_SUMMARY"
+          exit 1

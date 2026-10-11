@@ -2,7 +2,15 @@
 
 O portfólio continua sendo editado na Library. `site/` contém a última cópia estática para https://hugouchoasborges.github.io, incluindo imagens, GIFs, vídeo, estudos de caso e PDFs do currículo. O workflow publica apenas `site/` ao atualizar `master`.
 
-## Atualizar a cópia
+## Atualização automática
+
+O GitHub verifica a publicação da Library a cada 30 minutos (minutos 17 e 47). Se o HTML ou alguma mídia mudar, exporta a cópia completa, salva um commit e publica no Pages. Sem mudanças, mantém a publicação atual. Se a Library estiver indisponível ou uma mídia falhar, preserva a última cópia boa e registra a falha no workflow.
+
+Para atualizar imediatamente, abra Actions → Publish portfolio snapshot → Run workflow no GitHub. A rotina roda no GitHub; seu PC só precisa estar acessível para fornecer uma versão nova da Library.
+
+Os horários são aproximados: o GitHub pode atrasar execuções. Em repositórios públicos, o GitHub também desativa agendamentos após 60 dias sem atividade no repositório; nesse caso, reative o workflow em Actions. Referência: https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule.
+
+## Atualizar manualmente
 
 ```powershell
 npm ci
@@ -11,10 +19,9 @@ npm test
 git add site fallback/manifest.mjs
 git commit -m "Update portfolio snapshot"
 git push origin master
-npm run deploy:fallback
 ```
 
-A exportação consulta apenas a publicação pública, sem tokens. Se algum arquivo não puder ser exportado, ela falha antes de substituir a última cópia boa. A atualização é manual neste primeiro estágio; editar na Library sozinho não atualiza o Pages.
+A exportação consulta apenas a publicação pública, sem tokens. Se algum arquivo não puder ser exportado, ela falha antes de substituir a última cópia boa. Novos arquivos são reconhecidos pelo Worker sem precisar republicá-lo. Alterações no próprio código do Worker continuam exigindo `npm run deploy:fallback`.
 
 ## Fallback
 

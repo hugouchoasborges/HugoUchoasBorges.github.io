@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 import worker, { handle } from '../fallback/worker.mjs';
 const env = { FALLBACK_ORIGIN: 'https://hugouchoasborges.github.io', TIMEOUT_MS: '30' };
 const request = path => new Request('https://pub.hugoborges.dev.br' + path);
@@ -59,4 +60,15 @@ test('timeout falls back and snapshot media bypasses the failed origin', async (
   calls.length=0;
   await handle(request('/p/portfolio/_snapshot/files/test.png'),env,async req=>{calls.push(req.url);return new Response('image');});
   assert.deepEqual(calls,['https://hugouchoasborges.github.io/p/portfolio/_snapshot/files/test.png']);
+});
+test('new automatically exported media works without redeploying the Worker',async()=>{
+  const original='/p/portfolio/_assets/future.gif';
+  let calls=0,target;
+  const response=await handle(request(original),env,async req=>{
+    if(++calls===1)return new Response('down',{status:503});
+    target=req.url;return new Response('new image');
+  });
+  const hash=createHash('sha256').update(original).digest('hex').slice(0,16);
+  assert.equal(target,'https://hugouchoasborges.github.io/p/portfolio/_snapshot/files/'+hash+'-future.gif');
+  assert.equal(await response.text(),'new image');
 });

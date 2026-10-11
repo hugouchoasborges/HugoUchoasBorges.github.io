@@ -1,4 +1,5 @@
 import assets from './manifest.mjs';
+import {generatedPath} from './asset-path.mjs';
 const PREFIX='/p/portfolio';
 
 export async function handle(request,env,fetcher=fetch){
@@ -20,6 +21,7 @@ export async function handle(request,env,fetcher=fetch){
   }
   let path=snapshot?url.pathname:assets[url.pathname];
   if([PREFIX,PREFIX+'/',PREFIX+'/content'].includes(url.pathname))path='/index.html';
+  if(!path)path=await generatedPath(url.pathname);
   if(!path)return new Response('Portfolio temporarily unavailable',{status:503,headers:{'retry-after':'30'}});
   const target=new URL(path,env.FALLBACK_ORIGIN);
   const headers=new Headers();

@@ -3,7 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {load} from 'cheerio';
-import {requireLiveResponse} from './snapshot-source.mjs';
+import {requireLiveResponse,fingerprint} from './snapshot-source.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const origin='https://pub.hugoborges.dev.br';
@@ -11,6 +11,7 @@ const source=origin+'/p/portfolio/content';
 const prefix='/p/portfolio/_snapshot';
 const stage=path.join(root,'.snapshot-stage');
 const manifest={};
+const mediaHashes={};
 const pending=new Map();
 let total=0;
 
@@ -30,6 +31,7 @@ async function download(input){
     if(total>900*1024*1024)throw new Error('Snapshot exceeds site size budget');
     const filename=crypto.createHash('sha256').update(url.pathname).digest('hex').slice(0,16)+'-'+decodeURIComponent(path.basename(url.pathname)).replace(/[^a-zA-Z0-9._-]/g,'-');
     const target=prefix+'/files/'+filename;
+    mediaHashes[target]=crypto.createHash('sha256').update(bytes).digest('hex');
     await fs.writeFile(path.join(stage,target),bytes);
     manifest[url.pathname]=target;
     if(url.pathname.includes('/_assets/'))manifest[url.pathname.replace('/_assets/','/assets/')]=target;
@@ -69,6 +71,8 @@ async function rewriteHtml(html,base,fragment=false){
 
 async function main(){
   // Stage separately so a failed export cannot replace the last good snapshot.
+  if(path.dirname(stage)!==root)throw new Error('Unsafe staging path');
+  await fs.rm(stage,{recursive:true,force:true});
   await fs.mkdir(path.join(stage,prefix,'files'),{recursive:true});
   const response=await fetch(source,{signal:AbortSignal.timeout(60000)});
   requireLiveResponse(response);
@@ -100,14 +104,25 @@ async function main(){
   }
   entries.text(JSON.stringify(data).replace(/</g,'\\u003c'));
   const html=await rewriteHtml($.html(),source);
+  const contentHash=fingerprint(html,mediaHashes,manifest);
+  let previous;
+  try{previous=JSON.parse(await fs.readFile(path.join(root,'site','snapshot.json'),'utf8'));}
+  catch(error){if(error.code!=='ENOENT')throw error;}
+  if(previous?.contentHash===contentHash){
+    await fs.rm(stage,{recursive:true,force:true});
+    if(process.env.GITHUB_OUTPUT)await fs.appendFile(process.env.GITHUB_OUTPUT,'changed=false\n');
+    console.log(JSON.stringify({done:true,changed:false,contentHash}));
+    return;
+  }
   await fs.writeFile(path.join(stage,'index.html'),html);
   await fs.writeFile(path.join(stage,'.nojekyll'),'');
-  await fs.writeFile(path.join(stage,'snapshot.json'),JSON.stringify({source:origin+'/p/portfolio',generated:new Date().toISOString(),assets:Object.keys(manifest).length,mediaBytes:total,projects:data.projects.length,documents:Object.keys(data.docs).length},null,2)+'\n');
+  await fs.writeFile(path.join(stage,'snapshot.json'),JSON.stringify({source:origin+'/p/portfolio',generated:new Date().toISOString(),contentHash,assets:Object.keys(manifest).length,mediaBytes:total,projects:data.projects.length,documents:Object.keys(data.docs).length},null,2)+'\n');
   const site=path.join(root,'site');
   if(path.dirname(site)!==root||path.dirname(stage)!==root)throw new Error('Unsafe output path');
   await fs.rm(site,{recursive:true,force:true});
   await fs.rename(stage,site);
   await fs.writeFile(path.join(root,'fallback','manifest.mjs'),'export default '+JSON.stringify(manifest,null,2)+';\n');
-  console.log(JSON.stringify({done:true,files:pending.size,mediaBytes:total}));
+  if(process.env.GITHUB_OUTPUT)await fs.appendFile(process.env.GITHUB_OUTPUT,'changed=true\n');
+  console.log(JSON.stringify({done:true,changed:true,files:pending.size,mediaBytes:total,contentHash}));
 }
 main().catch(error=>{console.error(error.message);process.exitCode=1;});
