@@ -3,6 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {load} from 'cheerio';
+import {requireLiveResponse} from './snapshot-source.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const origin='https://pub.hugoborges.dev.br';
@@ -21,7 +22,7 @@ async function download(input){
   if(pending.has(url.href))return pending.get(url.href);
   const promise=(async()=>{
     const response=await fetch(url,{signal:AbortSignal.timeout(90000)});
-    if(!response.ok)throw new Error(`Asset ${response.status}: ${url.pathname}`);
+    requireLiveResponse(response);
     if((response.headers.get('content-type')||'').includes('text/html'))throw new Error('Expected media, received HTML: '+url.pathname);
     const bytes=Buffer.from(await response.arrayBuffer());
     if(bytes.length>95*1024*1024)throw new Error('Asset too large for ordinary Git storage: '+url.pathname);
@@ -70,7 +71,7 @@ async function main(){
   // Stage separately so a failed export cannot replace the last good snapshot.
   await fs.mkdir(path.join(stage,prefix,'files'),{recursive:true});
   const response=await fetch(source,{signal:AbortSignal.timeout(60000)});
-  if(!response.ok)throw new Error('Portfolio unavailable: '+response.status);
+  requireLiveResponse(response);
   const live=await response.text();
   const $=load(live);
   const entries=$('#entries');

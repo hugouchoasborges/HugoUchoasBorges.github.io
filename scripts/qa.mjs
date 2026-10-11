@@ -29,7 +29,7 @@ try{
   }
   const html=await fs.readFile(new URL('../site/index.html',import.meta.url),'utf8');
   const urls=[...new Set(html.match(/\/p\/portfolio\/_snapshot\/files\/[a-zA-Z0-9._-]+/g))];
-  for(const url of urls)assert.equal((await context.request.head(base+url)).status(),200,url);
+  for(const url of urls)assert.equal((await context.request.head(new URL(url,base).href)).status(),200,url);
   assert.deepEqual(errors,[]);
   await fs.mkdir('test-results',{recursive:true});
   await page.screenshot({path:'test-results/portfolio.png',fullPage:true});
